@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520" width="420">
+  <style>
+    .lbl { font-family: Arial, sans-serif; font-size: 20px; fill: #1a202c; }
+    .band { stroke: #1a202c; stroke-width: 1.5; }
+  </style>
+  <!-- 8 stacked bands, widest at bottom (physics) narrowing up (apps) -->
+  <rect class="band" x="150" y="20"  width="300" height="55" fill="#63b3ed"/>
+  <text class="lbl" x="300" y="53" text-anchor="middle">Applications</text>
+
+  <rect class="band" x="120" y="80"  width="360" height="55" fill="#76c7f0"/>
+  <text class="lbl" x="300" y="113" text-anchor="middle">Operating System</text>
+
+  <rect class="band" x="90" y="140" width="420" height="55" fill="#81d4e0"/>
+  <text class="lbl" x="300" y="173" text-anchor="middle">Higher-Level Languages</text>
+
+  <rect class="band" x="60" y="200" width="480" height="55" fill="#8ed9c8"/>
+  <text class="lbl" x="300" y="233" text-anchor="middle">C</text>
+
+  <rect class="band" x="30" y="260" width="540" height="55" fill="#9bdcb0"/>
+  <text class="lbl" x="300" y="293" text-anchor="middle">Machine Code &amp; Assembler</text>
+
+  <rect class="band" x="15" y="320" width="570" height="55" fill="#c3e6a0"/>
+  <text class="lbl" x="300" y="353" text-anchor="middle">Logic Gates &amp; CPU</text>
+
+  <rect class="band" x="5" y="380" width="590" height="55" fill="#e9e08a"/>
+  <text class="lbl" x="300" y="413" text-anchor="middle">Bits &amp; Bytes</text>
+
+  <rect class="band" x="0" y="440" width="600" height="60" fill="#f2b880"/>
+  <text class="lbl" x="300" y="475" text-anchor="middle">Electrons &amp; Transistors</text>
+</svg>

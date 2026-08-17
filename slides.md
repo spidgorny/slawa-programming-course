@@ -33,6 +33,8 @@ A 1-hour journey from physics to the apps you use every day
 
 ## The Abstraction Tower 🗼
 
+![bg right:45% fit](images/abstraction-tower.svg)
+
 We'll climb it floor by floor:
 
 1. Electrons & Transistors
@@ -66,10 +68,14 @@ We'll climb it floor by floor:
 
 ## The transistor: a switch controlled by electricity
 
+![bg right:40% fit](images/transistors.jpg)
+
 - A transistor is a tiny switch
 - Normally, switches are flipped by hand (light switch)
 - A transistor is flipped by **another electrical signal**
 - This means: *electricity can control electricity*
+
+*Photo: real discrete transistors — modern chips shrink these to billions per chip*
 
 ---
 
@@ -82,6 +88,8 @@ We'll climb it floor by floor:
 ---
 
 ## From switches to logic gates
+
+![bg right:45% fit](images/logic-gates.svg)
 
 - Combine a few transistors → build a **logic gate**
 - Logic gates: AND, OR, NOT
@@ -125,9 +133,13 @@ We'll climb it floor by floor:
 
 ## Why binary, not decimal?
 
+![bg right:40% fit](images/silicon-wafer.jpg)
+
 - Building a reliable switch with exactly 2 states (on/off) is easy
 - Building a reliable switch with 10 states would be very hard
 - Binary isn't a choice for convenience — it's a choice for **reliability**
+
+*Photo: a silicon wafer — the raw material chips are cut from*
 
 ---
 
@@ -158,11 +170,15 @@ We'll climb it floor by floor:
 
 ## Zoom out: millions of these
 
+![bg right:42% fit](images/cpu-die.jpg)
+
 - Chain adders together → add whole bytes, whole numbers
 - Add more circuits → multiply, compare, move data around
 - Package **millions to billions** of transistors into one chip
 
 ## That chip is the CPU
+
+*Photo: a real microprocessor die, magnified — every rectangle is functional circuitry*
 
 ---
 
@@ -322,9 +338,13 @@ def add(a, b):
 
 ## Same idea, different implementations
 
+![bg right:30% fit](images/tux.svg)
+
 - **Windows**, **macOS**, **Linux** (and Android, which is built on Linux)
 - All solve the same core problems: process management, files, drivers, security
 - Different design choices, same fundamental job
+
+*Tux the penguin — mascot of the Linux kernel*
 
 ---
 
@@ -386,3 +406,16 @@ def add(a, b):
 # Programming is choosing which floor of this tower to work on.
 
 ## Questions?
+
+---
+
+<!-- _footer: "" -->
+## Image Credits
+
+- Diagrams (tower, logic gates): original, made for this deck
+- Transistors photo: ArnoldReinhold, CC BY-SA 3.0, Wikimedia Commons
+- Silicon wafer photo: Sangitiana Fararano, CC BY-SA 2.0, Wikimedia Commons
+- CPU die photo: Revaldinho, CC BY 4.0, Wikimedia Commons
+- Tux: Larry Ewing / Simon Budig / Anja Gerwinski, Wikimedia Commons
+
+*(full details in `images/CREDITS.md`)*
