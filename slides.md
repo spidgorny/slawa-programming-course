@@ -45,6 +45,7 @@ We'll climb it floor by floor:
 6. Higher-Level Languages
 7. Operating Systems
 8. User Applications
+9. Bonus: The Cloud
 
 *(This slide comes back between every section — watch the current floor light up)*
 
@@ -200,10 +201,14 @@ We'll climb it floor by floor:
 
 ## Machine code
 
+![bg right:38% fit](images/punched-cards.jpg)
+
 - The CPU only understands raw binary instructions
 - Example (simplified): `10110000 01100001`
   → "put the value 97 into register A"
 - Every CPU family has its own machine code "dialect"
+
+*Photo: a punched card deck — an early, physical way of feeding instructions to a computer*
 
 ---
 
@@ -268,6 +273,8 @@ int add(int a, int b) {
 - This is what makes C "portable"
 
 ## Where C lives today
+
+![bg right:38% fit](images/keyboard.jpg)
 
 - Operating system kernels (Linux, parts of Windows/macOS)
 - Embedded systems (microwaves, cars, routers)
@@ -364,6 +371,8 @@ def add(a, b):
 
 ## Apps are built on everything below
 
+![bg right:38% fit](images/smartphone-apps.jpg)
+
 - A browser, a game, a word processor:
   - Written in a higher-level language (or C/C++)
   - Compiled/interpreted down through the layers
@@ -385,6 +394,61 @@ def add(a, b):
 ---
 
 <!-- _class: lead -->
+# 9. The Cloud
+### Bonus Floor — Computers Running Somewhere Else
+
+---
+
+## Wait — does the app run on *my* computer?
+
+- Often, only part of it does
+- When you check the weather, chat, or stream a video, your device sends a
+  request over the internet
+- That request is handled by **another computer**, somewhere else entirely
+
+---
+
+## So what *is* "the cloud"?
+
+![bg right:42% fit](images/cloud-diagram.svg)
+
+- Not a mystical thing floating above us
+- It's just **someone else's computers** — running in a building far away
+- Same electrons, same transistors, same CPU, same OS, same apps we just learned about
+- The only difference: it's not sitting on your desk
+
+---
+
+## Inside a data center
+
+![bg right:42% fit](images/datacenter.jpg)
+
+- Warehouses full of **racks** of computers
+- Each rack holds many servers, each server has CPUs, memory, storage — exactly
+  like the machine on your desk, just bigger and more of them
+- Owned by companies (Amazon, Google, Microsoft, etc.) who rent out computing
+  power to others
+
+---
+
+## Why use someone else's computer?
+
+- **Scale** — instantly use 1 computer or 10,000, only when you need them
+- **Maintenance** — someone else keeps the hardware running, updated, and cooled
+- **Access anywhere** — your data/app is reachable from any device, anywhere
+- **Cost** — pay only for what you use, instead of buying your own hardware
+
+---
+
+## Same tower, just far away 🔁
+
+- Your phone/laptop is still climbing its own tower: apps → OS → CPU → bits → electrons
+- It just also **talks to another tower**, in a data center, over a network
+- "The cloud" = a lot of familiar towers, networked together, out of sight
+
+---
+
+<!-- _class: lead -->
 # Putting It All Together
 
 ---
@@ -399,6 +463,7 @@ def add(a, b):
 6. **Higher-level languages** let us think more like humans
 7. The **operating system** shares hardware between programs
 8. **Applications** are what we actually see and use
+9. **The cloud** is just more of these towers, somewhere else
 
 ---
 
@@ -412,10 +477,11 @@ def add(a, b):
 <!-- _footer: "" -->
 ## Image Credits
 
-- Diagrams (tower, logic gates): original, made for this deck
-- Transistors photo: ArnoldReinhold, CC BY-SA 3.0, Wikimedia Commons
-- Silicon wafer photo: Sangitiana Fararano, CC BY-SA 2.0, Wikimedia Commons
-- CPU die photo: Revaldinho, CC BY 4.0, Wikimedia Commons
+- Diagrams (tower, logic gates, cloud): original, made for this deck
+- Transistors, silicon wafer, CPU die, punched cards: ArnoldReinhold /
+  Sangitiana Fararano / Revaldinho — CC BY / CC BY-SA, Wikimedia Commons
+- Keyboard, smartphone, data center: Jovonni Pharr / Gannu03 / Carl Lender —
+  CC BY / CC BY-SA, Wikimedia Commons
 - Tux: Larry Ewing / Simon Budig / Anja Gerwinski, Wikimedia Commons
 
 *(full details in `images/CREDITS.md`)*

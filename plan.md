@@ -3,14 +3,14 @@
 **Audience:** Complete beginners, no programming background
 **Format:** Slides-driven, with 1–2 quick live demo highlights
 **Language:** English
-**Total time:** 60 minutes
+**Total time:** ~60 minutes core content + optional 5-min bonus (Cloud) = ~65 min if included
 
 ## Goal
 Give beginners a mental model of computing as a stack of abstraction layers — from
 physics up to the apps they use every day — so future lessons ("what is a variable",
 "what is an OS") have a place to attach to.
 
-## Structure Overview (60 min)
+## Structure Overview (60 min core + 5 min bonus)
 
 | # | Section | Time | Slides (approx) |
 |---|---------|------|------------------|
@@ -23,9 +23,10 @@ physics up to the apps they use every day — so future lessons ("what is a vari
 | 7 | Layer 5: Higher-level languages | 6 min | 3–4 |
 | 8 | Layer 6: Operating Systems | 8 min | 4–5 |
 | 9 | Layer 7: User Applications | 5 min | 2–3 |
-| 10 | Putting it all together + Q&A | 5 min | 2 |
+| 10 | **Bonus:** The Cloud | 5 min | 5–6 |
+| 11 | Putting it all together + Q&A | 5 min | 2 |
 
-Total slides estimate: ~30–35
+Total slides estimate: ~40 (incl. bonus section and image credits slide)
 
 ## Detailed Outline
 
@@ -94,8 +95,17 @@ Total slides estimate: ~30–35
 - **Optional demo (~2 min):** open Task Manager/Activity Monitor to show running
   processes as a concrete, visual "this is the OS layer" moment.
 
-### 10. Putting It Together + Q&A (5 min)
-- Recap the full ladder slide, electrons → apps, one line per layer.
+### 10. Bonus — The Cloud (5 min)
+- Framing: "the cloud" is just other people's computers, in data centers, running
+  the exact same electrons → apps stack we just walked through.
+- Your device (phone/laptop) still runs its own tower locally; it *also* talks to
+  another tower somewhere else over the network.
+- Why the cloud is useful: scale on demand, someone else maintains hardware,
+  reachable from anywhere, pay only for what you use.
+- Optional to cut for time — flagged as bonus, not required for the core narrative.
+
+### 11. Putting It Together + Q&A (5 min)
+- Recap the full ladder slide, electrons → apps → (optionally) cloud, one line per layer.
 - One memorable takeaway: "Programming is choosing which floor of this tower to work on."
 - Open floor for questions.
 
@@ -107,10 +117,17 @@ Total slides estimate: ~30–35
   current layer — this is the anchor that ties the whole hour together.
 - Suggested demo tools (if used): a terminal running `objdump -d` or a simple
   assembly listing (Layer 3), and OS Task Manager/Activity Monitor (Layer 6/9).
-- Timing includes buffer; if running long, trim Layer 4 (C) or Layer 5 (high-level
-  languages) sections first since they're conceptually similar to explain.
-- Slide deck itself (visual design, exact text per slide) is a follow-up step, to be
-  produced after this outline is approved.
+- Timing includes buffer; if running long, cut the Cloud bonus section first, then
+  trim Layer 4 (C) or Layer 5 (high-level languages) since they're conceptually
+  similar to explain.
+- Slide deck (`slides.md`, exported to `slides.html`/`slides.pdf` via Marp) is
+  complete, including original diagrams and CC-licensed photos (see
+  `images/CREDITS.md`) for most sections.
 
-## Todos (tracked in SQL)
-See todo list for slide-authoring tasks per section, to be done once this outline is approved.
+## Status
+- ✅ Full slide deck written and rendered (Marp: `slides.md` → `slides.html` / `slides.pdf`)
+- ✅ Images added: custom SVG diagrams (abstraction tower, logic gates, cloud) +
+  CC-licensed photos (transistors, silicon wafer, CPU die, punched cards, keyboard,
+  smartphone, data center, Tux) with attribution in `images/CREDITS.md`
+- ✅ Bonus Cloud Computing section added (Section 10)
+- ⏳ Next possible steps: speaker notes, timing rehearsal, visual theme polish

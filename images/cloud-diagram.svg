@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="560">
+  <style>
+    .lbl { font-family: Arial, sans-serif; font-size: 16px; fill: #1a202c; }
+    .lbl2 { font-family: Arial, sans-serif; font-size: 20px; fill: #1a202c; font-weight: bold; }
+    .wire { stroke: #4a5568; stroke-width: 2; fill: none; }
+    .rack { fill: #4a5568; stroke: #1a202c; stroke-width: 1.5; }
+    .led { fill: #68d391; }
+    .cloud { fill: #ebf8ff; stroke: #63b3ed; stroke-width: 2; }
+    .device { fill: #cbd5e0; stroke: #1a202c; stroke-width: 1.5; }
+  </style>
+
+  <!-- Cloud shape -->
+  <path class="cloud" d="M180,90
+    a45,45 0 0 1 85,-25
+    a55,55 0 0 1 95,10
+    a40,40 0 0 1 30,75
+    a40,40 0 0 1 -20,75
+    l-190,0
+    a45,45 0 0 1 -35,-70
+    a40,40 0 0 1 35,-65 Z"/>
+  <text class="lbl2" x="330" y="150" text-anchor="middle">"The Cloud"</text>
+
+  <!-- Server racks inside the cloud -->
+  <g transform="translate(230,60)">
+    <rect class="rack" x="0" y="0" width="30" height="60" rx="2"/>
+    <circle class="led" cx="6" cy="8" r="2"/>
+    <circle class="led" cx="6" cy="16" r="2"/>
+    <circle class="led" cx="6" cy="24" r="2"/>
+  </g>
+  <g transform="translate(275,45)">
+    <rect class="rack" x="0" y="0" width="30" height="70" rx="2"/>
+    <circle class="led" cx="6" cy="8" r="2"/>
+    <circle class="led" cx="6" cy="16" r="2"/>
+    <circle class="led" cx="6" cy="24" r="2"/>
+  </g>
+  <g transform="translate(320,55)">
+    <rect class="rack" x="0" y="0" width="30" height="65" rx="2"/>
+    <circle class="led" cx="6" cy="8" r="2"/>
+    <circle class="led" cx="6" cy="16" r="2"/>
+    <circle class="led" cx="6" cy="24" r="2"/>
+  </g>
+  <g transform="translate(365,60)">
+    <rect class="rack" x="0" y="0" width="30" height="60" rx="2"/>
+    <circle class="led" cx="6" cy="8" r="2"/>
+    <circle class="led" cx="6" cy="16" r="2"/>
+    <circle class="led" cx="6" cy="24" r="2"/>
+  </g>
+
+  <!-- Connections down to devices -->
+  <path class="wire" d="M330,210 L120,300"/>
+  <path class="wire" d="M330,210 L330,300"/>
+  <path class="wire" d="M330,210 L540,300"/>
+
+  <!-- Laptop -->
+  <g transform="translate(70,300)">
+    <rect class="device" x="0" y="0" width="100" height="14" rx="2"/>
+    <rect class="device" x="15" y="-55" width="70" height="55" rx="2"/>
+    <text class="lbl" x="50" y="35" text-anchor="middle">Laptop</text>
+  </g>
+
+  <!-- Phone -->
+  <g transform="translate(300,300)">
+    <rect class="device" x="0" y="-55" width="60" height="55" rx="6"/>
+    <text class="lbl" x="30" y="20" text-anchor="middle">Phone</text>
+  </g>
+
+  <!-- Desktop -->
+  <g transform="translate(500,300)">
+    <rect class="device" x="0" y="-45" width="80" height="45" rx="2"/>
+    <rect class="device" x="30" y="0" width="20" height="10"/>
+    <text class="lbl" x="40" y="35" text-anchor="middle">Desktop</text>
+  </g>
+</svg>
