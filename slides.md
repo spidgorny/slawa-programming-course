@@ -164,6 +164,8 @@ We'll climb it floor by floor:
 
 ## Bits represent *everything*
 
+![bg right:38% fit](images/ascii-table.png)
+
 - Numbers → straightforward binary counting
 - Letters → each letter mapped to a number (e.g. ASCII: 'A' = 65)
 - Colors → red/green/blue values as numbers
@@ -600,7 +602,7 @@ def add(a, b):
 ## Image Credits
 
 - Diagrams (tower, logic gates, cloud): original, made for this deck
-- Voltage/binary signal diagram, binary background image: provided by the presenter
+- Voltage/binary signal diagram, binary background image, ASCII table: provided by the presenter
 - Transistors, silicon wafer, CPU die, punched cards: ArnoldReinhold /
   Sangitiana Fararano / Revaldinho — CC BY / CC BY-SA, Wikimedia Commons
 - Keyboard, smartphone, data center: Jovonni Pharr / Gannu03 / Carl Lender —
