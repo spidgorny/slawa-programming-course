@@ -59,11 +59,15 @@ We'll climb it floor by floor:
 
 ## It starts with electricity
 
+![bg right:45% fit](images/voltage-signal.png)
+
 - Electricity = electrons flowing through a wire
 - We can measure it as **voltage**: high voltage or low voltage
 - Computers only care about **two states**: voltage present or not
   - High voltage → **1**
   - Low voltage → **0**
+
+*A stream of 1s and 0s is really just voltage switching high and low over time*
 
 ---
 
@@ -594,6 +598,7 @@ def add(a, b):
 ## Image Credits
 
 - Diagrams (tower, logic gates, cloud): original, made for this deck
+- Voltage/binary signal diagram: provided by the presenter
 - Transistors, silicon wafer, CPU die, punched cards: ArnoldReinhold /
   Sangitiana Fararano / Revaldinho — CC BY / CC BY-SA, Wikimedia Commons
 - Keyboard, smartphone, data center: Jovonni Pharr / Gannu03 / Carl Lender —
