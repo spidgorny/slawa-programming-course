@@ -103,6 +103,18 @@ We'll climb it floor by floor:
 ---
 
 <!-- _class: lead -->
+## 🔗 Bridge: Floor 0 → Floor 1
+### From switches to information
+
+- **We just built:** transistors combined into logic gates (AND/OR/NOT) that
+  turn electricity into a reliable yes/no signal
+- **Next question:** what do we actually *do* with billions of these signals?
+- **Answer:** we group them into **bits** and **bytes** to represent real
+  information — numbers, letters, colors, sound
+
+---
+
+<!-- _class: lead -->
 # 2. Bits & Bytes
 ### Floor 1 — Representing Information
 
@@ -156,6 +168,19 @@ We'll climb it floor by floor:
 ---
 
 <!-- _class: lead -->
+## 🔗 Bridge: Floor 1 → Floor 2
+### From storing information to computing with it
+
+- **We just learned:** bits and bytes let us *represent* numbers, letters,
+  colors, and sound
+- **Next question:** representing data is nice, but how do we *calculate*
+  with it — add two numbers, compare them, move them around?
+- **Answer:** wire logic gates together into circuits that actually compute —
+  that's how a **CPU** is built
+
+---
+
+<!-- _class: lead -->
 # 3. Logic Gates → CPU
 ### Floor 2 — Building a Calculator from Switches
 
@@ -190,6 +215,19 @@ We'll climb it floor by floor:
   (modern CPUs tick billions of times per second — GHz)
 
 **Key idea:** the CPU is a huge, fast calculator made entirely of on/off switches.
+
+---
+
+<!-- _class: lead -->
+## 🔗 Bridge: Floor 2 → Floor 3
+### From a calculator to a set of commands
+
+- **We just built:** a CPU — millions of gates, registers, and a clock, all
+  able to do arithmetic on bits
+- **Next question:** a calculator alone does nothing — how do we *tell* it
+  what to calculate, and in what order?
+- **Answer:** we give it a sequence of **instructions** it understands —
+  machine code, written more conveniently via assembler
 
 ---
 
@@ -239,6 +277,19 @@ JMP loop    ; jump back to "loop"
 ---
 
 <!-- _class: lead -->
+## 🔗 Bridge: Floor 3 → Floor 4
+### From one CPU's dialect to a portable language
+
+- **We just saw:** assembler instructions map almost 1:1 to machine code —
+  but only for *one specific* CPU type, and they're tedious to write
+- **Next question:** what if we want to write code once and run it on many
+  different CPUs, with less tedium and fewer mistakes?
+- **Answer:** introduce a language with structure — variables, functions,
+  loops — that a **compiler** translates to whichever CPU's machine code we need
+
+---
+
+<!-- _class: lead -->
 # 5. C — the "Portable Assembler"
 ### Floor 4 — Structured, Reusable Code
 
@@ -283,6 +334,19 @@ int add(int a, int b) {
 ---
 
 <!-- _class: lead -->
+## 🔗 Bridge: Floor 4 → Floor 5
+### From close-to-the-machine to close-to-human-thinking
+
+- **We just saw:** C is portable and structured, but you still manage memory
+  yourself, and it takes a lot of code to express simple ideas
+- **Next question:** can we write code that reads more like plain thinking,
+  and let the computer handle the tedious bookkeeping?
+- **Answer:** higher-level languages — Python, JavaScript, Java, and many
+  more — trade a little control for a lot of readability and speed
+
+---
+
+<!-- _class: lead -->
 # 6. Higher-Level Languages
 ### Floor 5 — Closer to Human Thinking
 
@@ -318,6 +382,20 @@ def add(a, b):
 - *(We'll go deeper into this in a future lecture)*
 
 **Key idea:** every layer trades a bit of performance/control for speed of writing and readability.
+
+---
+
+<!-- _class: lead -->
+## 🔗 Bridge: Floor 5 → Floor 6
+### From one program to many programs sharing one machine
+
+- **We just learned:** higher-level languages let us write programs quickly,
+  in whichever language fits the job
+- **Next question:** your computer runs *many* programs at once (browser,
+  music, this slideshow) — who decides which one gets the CPU, memory, and
+  screen right now?
+- **Answer:** the **operating system** — it manages the hardware and shares
+  it safely between every running program
 
 ---
 
@@ -364,6 +442,19 @@ def add(a, b):
 ---
 
 <!-- _class: lead -->
+## 🔗 Bridge: Floor 6 → Floor 7
+### From managing hardware to what you actually see
+
+- **We just learned:** the OS manages processes, files, and drivers, and
+  shares the hardware between programs
+- **Next question:** the OS runs programs, but what *are* those programs,
+  from your point of view as a user?
+- **Answer:** they're the **applications** — the browser, the game, the word
+  processor — everything you actually click on and use
+
+---
+
+<!-- _class: lead -->
 # 8. User Applications
 ### Floor 7 — What You Actually See
 
@@ -390,6 +481,20 @@ def add(a, b):
 → Instructions are just patterns of bits
 → Bits are just voltage levels
 → Voltage levels are just electrons moving through transistors
+
+---
+
+<!-- _class: lead -->
+## 🔗 Bridge: Floor 7 → Bonus Floor
+### From your device to every device
+
+- **We just closed the loop:** on *your* device, apps run all the way down
+  to electrons — a complete, self-contained tower
+- **Next question:** but many apps you use daily (weather, chat, video)
+  clearly involve *other* computers too — where are those, and how do
+  they fit in?
+- **Answer:** those other computers live in data centers — what everyone
+  calls **"the cloud"**
 
 ---
 
@@ -445,6 +550,17 @@ def add(a, b):
 - Your phone/laptop is still climbing its own tower: apps → OS → CPU → bits → electrons
 - It just also **talks to another tower**, in a data center, over a network
 - "The cloud" = a lot of familiar towers, networked together, out of sight
+
+---
+
+<!-- _class: lead -->
+## 🔗 Bridge: Bonus Floor → Recap
+### From nine floors back to one idea
+
+- **We just climbed:** electrons → transistors → gates → CPU → bits →
+  machine code → C → higher-level languages → OS → apps → the cloud
+- **Next:** let's walk back down the *whole* tower in one breath, floor by
+  floor, so it clicks as a single connected idea rather than nine separate ones
 
 ---
 
