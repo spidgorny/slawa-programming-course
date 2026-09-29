@@ -126,6 +126,8 @@ We'll climb it floor by floor:
 
 ## The bit
 
+![bg right:42% fit](images/binary-background.png)
+
 - **Bit** = one on/off signal = one 0 or one 1
 - The smallest unit of information a computer can store
 
@@ -598,7 +600,7 @@ def add(a, b):
 ## Image Credits
 
 - Diagrams (tower, logic gates, cloud): original, made for this deck
-- Voltage/binary signal diagram: provided by the presenter
+- Voltage/binary signal diagram, binary background image: provided by the presenter
 - Transistors, silicon wafer, CPU die, punched cards: ArnoldReinhold /
   Sangitiana Fararano / Revaldinho — CC BY / CC BY-SA, Wikimedia Commons
 - Keyboard, smartphone, data center: Jovonni Pharr / Gannu03 / Carl Lender —
