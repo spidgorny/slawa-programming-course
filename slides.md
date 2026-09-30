@@ -258,6 +258,23 @@ We'll climb it floor by floor:
 
 ---
 
+## ⚠️ Data and instructions look identical
+
+- Memory just stores **bytes** — `01100001` could mean:
+  - the number 97
+  - the letter `a`
+  - or the instruction "add register B to register A"
+- The CPU doesn't "know" which one it is — *context* decides
+- Programs and data live in the **same memory**, side by side
+
+**If a program mistakes data for instructions** (or vice versa), the CPU
+happily executes whatever garbage bytes it finds — often ending in a crash
+or an infinite loop, i.e. the computer **freezes**
+
+*This mix-up is also the root cause of classic security bugs like buffer overflows*
+
+---
+
 ## Assembler: a thin translation layer
 
 - Machine code is unreadable for humans

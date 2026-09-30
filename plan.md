@@ -18,7 +18,7 @@ physics up to the apps they use every day — so future lessons ("what is a vari
 | 2 | Layer 0: Physics — electrons, transistors | 7 min | 4–5 |
 | 3 | Layer 1: Bits & Bytes | 6 min | 3–4 |
 | 4 | Layer 2: Logic gates → CPU | 6 min | 3–4 |
-| 5 | Layer 3: Machine code & Assembler | 6 min | 3–4 |
+| 5 | Layer 3: Machine code & Assembler | 7 min | 4–5 |
 | 6 | Layer 4: C — "portable assembler" | 6 min | 3 |
 | 7 | Layer 5: Higher-level languages | 6 min | 3–4 |
 | 8 | Layer 6: Operating Systems | 8 min | 4–5 |
@@ -55,9 +55,12 @@ Total slides estimate: ~40 (incl. bonus section and image credits slide)
 - Introduce: registers (tiny fast memory), clock (ticks that pace everything).
 - Key idea: **CPU = a huge, fast calculator made of on/off switches.**
 
-### 5. Layer 3 — Machine Code & Assembler (6 min)
+### 5. Layer 3 — Machine Code & Assembler (7 min)
 - Machine code = raw binary instructions the CPU understands (e.g. "add these two
   registers").
+- Data and instructions are stored as the same kind of bytes in the same memory —
+  the CPU doesn't inherently know which is which; mixing them up (executing data
+  as code) causes crashes/freezes and is the root of bugs like buffer overflows.
 - Assembler = human-readable mnemonics (MOV, ADD, JMP) mapped 1:1 to machine code.
 - Key idea: **assembler is a thin, direct translation layer over machine code.**
 
