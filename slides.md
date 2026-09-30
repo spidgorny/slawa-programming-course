@@ -271,15 +271,6 @@ JMP loop    ; jump back to "loop"
 
 - Each assembly line maps almost 1:1 to one machine code instruction
 
----
-
-## 🎥 Demo: peeking at real machine instructions
-
-- Compile a tiny "Hello World" program
-- Run `objdump -d` (or similar) on it
-- Look at the disassembly: short, cryptic instructions
-- *You don't need to understand every line — just see that it's real and small*
-
 **Key idea:** assembler is a direct, human-readable translation of machine code.
 
 ---

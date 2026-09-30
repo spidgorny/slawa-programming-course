@@ -18,7 +18,7 @@ physics up to the apps they use every day — so future lessons ("what is a vari
 | 2 | Layer 0: Physics — electrons, transistors | 7 min | 4–5 |
 | 3 | Layer 1: Bits & Bytes | 6 min | 3–4 |
 | 4 | Layer 2: Logic gates → CPU | 6 min | 3–4 |
-| 5 | Layer 3: Machine code & Assembler | 8 min | 4–5 (incl. 1 demo) |
+| 5 | Layer 3: Machine code & Assembler | 6 min | 3–4 |
 | 6 | Layer 4: C — "portable assembler" | 6 min | 3 |
 | 7 | Layer 5: Higher-level languages | 6 min | 3–4 |
 | 8 | Layer 6: Operating Systems | 8 min | 4–5 |
@@ -55,13 +55,10 @@ Total slides estimate: ~40 (incl. bonus section and image credits slide)
 - Introduce: registers (tiny fast memory), clock (ticks that pace everything).
 - Key idea: **CPU = a huge, fast calculator made of on/off switches.**
 
-### 5. Layer 3 — Machine Code & Assembler (8 min, includes demo)
+### 5. Layer 3 — Machine Code & Assembler (6 min)
 - Machine code = raw binary instructions the CPU understands (e.g. "add these two
   registers").
 - Assembler = human-readable mnemonics (MOV, ADD, JMP) mapped 1:1 to machine code.
-- **Demo (optional, ~2 min):** show a tiny assembly snippet and/or a disassembly of
-  a compiled "hello world" (e.g. `objdump -d`) to make it tangible — no need to
-  explain every line, just "see, it's just short cryptic instructions."
 - Key idea: **assembler is a thin, direct translation layer over machine code.**
 
 ### 6. Layer 4 — C: "Portable Assembler" (6 min)
@@ -115,8 +112,9 @@ Total slides estimate: ~40 (incl. bonus section and image credits slide)
   dedicated "your first program" lecture).
 - Reuse one consistent "abstraction tower" visual throughout, highlighting the
   current layer — this is the anchor that ties the whole hour together.
-- Suggested demo tools (if used): a terminal running `objdump -d` or a simple
-  assembly listing (Layer 3), and OS Task Manager/Activity Monitor (Layer 6/9).
+- Suggested demo tools (if used): OS Task Manager/Activity Monitor (Layer 6/9).
+  The machine-code/assembler demo (compiling "hello world" and running
+  `objdump -d`) was removed from the deck — cut for time/flow.
 - Timing includes buffer; if running long, cut the Cloud bonus section first, then
   trim Layer 4 (C) or Layer 5 (high-level languages) since they're conceptually
   similar to explain.
