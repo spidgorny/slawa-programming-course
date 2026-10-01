@@ -23,6 +23,21 @@ A 1-hour journey from physics to the apps you use every day
 
 ---
 
+## 🚀 Welcome!
+
+Ever wonder what *actually* happens when you double-click an icon?
+
+We'll zoom in all the way to the electrons flowing through a CPU's
+transistors — then zoom back out, floor by floor, through bits, logic
+gates, machine code, C, modern languages, operating systems, apps —
+and even "the cloud" (spoiler: it's just someone else's computer).
+
+**No prior programming knowledge needed — just curiosity.**
+By the end, every future "how does this work?" question gets a little
+less mysterious.
+
+---
+
 ## What actually happens when you double-click an icon?
 
 - Somewhere, **electrons** start moving in a very specific pattern
