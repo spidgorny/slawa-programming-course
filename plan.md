@@ -19,7 +19,7 @@ physics up to the apps they use every day — so future lessons ("what is a vari
 | 3 | Layer 1: Bits & Bytes | 6 min | 3–4 |
 | 4 | Layer 2: Logic gates → CPU | 6 min | 3–4 |
 | 5 | Layer 3: Machine code & Assembler | 7 min | 4–5 |
-| 6 | Layer 4: C — "portable assembler" | 6 min | 3 |
+| 6 | Layer 4: C — "portable assembler" | 7 min | 4 |
 | 7 | Layer 5: Higher-level languages | 6 min | 3–4 |
 | 8 | Layer 6: Operating Systems | 8 min | 4–5 |
 | 9 | Layer 7: User Applications | 5 min | 2–3 |
@@ -64,11 +64,14 @@ Total slides estimate: ~40 (incl. bonus section and image credits slide)
 - Assembler = human-readable mnemonics (MOV, ADD, JMP) mapped 1:1 to machine code.
 - Key idea: **assembler is a thin, direct translation layer over machine code.**
 
-### 6. Layer 4 — C: "Portable Assembler" (6 min)
+### 6. Layer 4 — C: "Portable Assembler" (7 min)
 - Problem assembler has: tied to one specific CPU type, tedious, error-prone.
 - C introduces variables, functions, loops as text — but still maps closely to
   what the machine does (why it's called "portable assembler" / systems language).
 - Mention compiler: translates C source → machine code for the target CPU.
+- Source code vs. executable: a text file (`.c`) and a binary executable are
+  completely different files — editing the source requires recompiling to get
+  an updated binary.
 - Briefly note C's role today: OS kernels, embedded systems, performance-critical code.
 
 ### 7. Layer 5 — Higher-Level Languages (6 min)

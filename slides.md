@@ -354,6 +354,28 @@ int add(int a, int b) {
 - Different compiler per target CPU, same C source code
 - This is what makes C "portable"
 
+---
+
+## Source code vs. the executable
+
+- **Source code** (`add.c`) is a text file — human-readable, editable,
+  means nothing to the CPU on its own
+- The **compiler** reads it and produces a **binary executable**
+  (`add.exe`, `add`, or similar) — pure machine code, ready for the CPU
+- They are **completely different files**:
+
+| | Source code | Executable |
+|---|---|---|
+| Format | plain text | binary (machine code) |
+| Readable by | humans (and editors) | the CPU |
+| Can you run it? | no | yes |
+| Can you easily edit it? | yes | not really |
+
+- Edit the `.c` file → you must **recompile** to get a new, updated binary;
+  the old executable doesn't change itself
+
+---
+
 ## Where C lives today
 
 ![bg right:38% fit](images/keyboard.jpg)
