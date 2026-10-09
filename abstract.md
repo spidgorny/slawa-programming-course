@@ -7,7 +7,7 @@ gates, machine code, C, modern programming languages, operating systems,
 and the apps on your phone. Along the way we'll even peek at "the cloud"
 (spoiler: it's just someone else's computer).
 
-No prior programming knowledge needed — just curiosity. By the end, you'll
+No prior programming knowledge  needed — just curiosity. By the end, you'll
 have a mental map of computing that makes every future "how does this work?"
 question a little less mysterious.
 
@@ -15,6 +15,8 @@ question a little less mysterious.
 computer but never quite knew what's going on "under the hood."
 
 **Format:** ~60 minutes, slides + a couple of live demos, plenty of room for
-questions.
+questions — in fact, please bring your toughest, nitpickiest questions:
+I'm also using this talk to practice public speaking, so grilling me is
+encouraged, not rude!
 
 Come join us — bring your curiosity, nothing else required! 🚀

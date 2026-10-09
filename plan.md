@@ -32,6 +32,9 @@ Total slides estimate: ~40 (incl. bonus section and image credits slide)
 
 ### 1. Hook & Roadmap (3 min)
 - Opening question: "When you double-click an icon, what *actually* happens, down to physics?"
+- Ask participants for active feedback (spoken, not a slide): invite tough/
+  nitpicky questions at any point during the talk — framed as the presenter
+  practicing public speaking, not as an invitation to be rude.
 - Show the "abstraction ladder" as one visual (a tower/pyramid graphic) that will
   reappear at the top of every section, with the current layer highlighted.
 - Promise: by the end, they'll be able to explain every rung of that ladder.
