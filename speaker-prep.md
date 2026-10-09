@@ -83,9 +83,18 @@ words, don't read slides verbatim) plus the one bridge-idea to land.
 | User Applications | Everything you click on is, underneath, the entire stack — down to electrons | What if the stack runs on a machine you've never touched? |
 | The Cloud (bonus) | Cloud = the same tower, just physically somewhere else, reached over a network | Full circle — recap the whole ladder |
 
+## Self-rehearsal drill (works solo, no partner needed)
+
+Since you may be rehearsing alone: for each section, cover the "answer"
+column below, read only the question out loud, pause 2 full seconds,
+then answer out loud as if a real person just interrupted you. Only
+then reveal the suggested answer and compare. Repeat for every section
+in one sitting — it takes ~15 minutes and is the single highest-value
+prep activity here.
+
 ## "Grill me" — anticipated tough questions
 
-Use these to rehearse out loud. You don't need the perfect textbook
+Use these for the drill above. You don't need the perfect textbook
 answer — aim for "confident, honest, and roughly right," and it's fine
 to simplify further or admit the limit of your knowledge.
 
