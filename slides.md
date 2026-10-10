@@ -225,6 +225,8 @@ it's humans who agree to call high voltage "1" and low voltage "0".*
 - Building a reliable switch with 10 states would be very hard
 - Binary isn't a choice for convenience — it's a choice for **reliability**
 
+*😄 There are 10 types of people in the world: those who understand binary, and those who don't.*
+
 *Photo: a silicon wafer — the raw material chips are cut from*
 
 ---
@@ -384,6 +386,10 @@ JMP loop    ; jump back to "loop"
 - Extremely tedious to write
 - Very easy to make mistakes (no safety nets)
 
+*😄 Assembly programmers are the people who hike without GPS or trail
+markers and insist it builds character. C came along and said: maybe a
+trail map wouldn't hurt.*
+
 ---
 
 ## Enter C
@@ -410,6 +416,9 @@ int add(int a, int b) {
 
 ## Source code vs. the executable
 
+<style scoped>
+section { font-size: 24px; }
+</style>
 - **Source code** (`add.c`) is a text file — human-readable, editable,
   means nothing to the CPU on its own
 - The **compiler** reads it and produces a **binary executable**
@@ -420,11 +429,11 @@ int add(int a, int b) {
 |---|---|---|
 | Format | plain text | binary (machine code) |
 | Readable by | humans (and editors) | the CPU |
-| Can you run it? | no | yes |
-| Can you easily edit it? | yes | not really |
+| Can you run / edit it? | no / yes | yes / not really |
 
-- Edit the `.c` file → you must **recompile** to get a new, updated binary;
-  the old executable doesn't change itself
+- Edit the `.c` file → you must **recompile** to get an updated binary
+
+*😄 Forgetting to recompile is like changing the recipe but serving yesterday's cake.*
 
 ---
 
@@ -477,6 +486,10 @@ def add(a, b):
     return a + b
 ```
 
+*😄 In C, managing memory yourself is like being responsible for cleaning
+up every room you ever walk into, forever. Higher-level languages hired
+you a cleaning service — it's called garbage collection.*
+
 ---
 
 ## Compiled vs. interpreted (just the vocabulary)
@@ -485,6 +498,10 @@ def add(a, b):
 - Some languages are **interpreted** — translated and run on the fly
 - Many modern languages do a mix of both
 - *(We'll go deeper into this in a future lecture)*
+
+*😄 Compiled languages translate the whole book before you start reading.
+Interpreted languages translate it sentence by sentence while you read —
+slower, but great if you keep changing your mind about the plot.*
 
 **Key idea:** every layer trades a bit of performance/control for speed of writing and readability.
 
