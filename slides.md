@@ -179,6 +179,10 @@ We'll climb it floor by floor:
 - **Answer:** we group them into **bits** and **bytes** to represent real
   information — numbers, letters, colors, sound
 
+*A glass of water is neither half full nor half empty — it just is as it is.
+It's humans who give it meaning. The same wire is just carrying electricity —
+it's humans who agree to call high voltage "1" and low voltage "0".*
+
 ---
 
 <!-- _class: lead -->
