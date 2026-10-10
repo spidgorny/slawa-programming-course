@@ -265,9 +265,12 @@ it's humans who agree to call high voltage "1" and low voltage "0".*
 
 ## Combining gates: an adder
 
+![bg right:48% fit](images/adder-circuit.png)
+
 - Take two 1-bit numbers, want to add them
 - A small circuit of AND/OR/NOT gates can compute the sum + carry
 - This is a real circuit: **the binary adder**
+- Chain 8 of these together → a circuit that adds whole bytes (shown here)
 
 ---
 
