@@ -165,6 +165,8 @@ We'll climb it floor by floor:
 
 **Key idea:** everything below this point is just physics turning into a yes/no signal.
 
+*Video: [a 1-minute visual explainer of logic gates](https://www.youtube.com/shorts/VJ3Xc52vRwg)*
+
 ---
 
 <!-- _class: lead -->
