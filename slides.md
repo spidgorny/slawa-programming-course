@@ -436,7 +436,8 @@ section { font-size: 24px; }
 
 - Edit the `.c` file → you must **recompile** to get an updated binary
 
-*😄 Forgetting to recompile is like changing the recipe but serving yesterday's cake.*
+*😄 Forgetting to recompile after editing your code is the programming
+equivalent of changing the recipe but serving yesterday's cake.*
 
 ---
 
