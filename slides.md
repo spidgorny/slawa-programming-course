@@ -155,7 +155,7 @@ We'll climb it floor by floor:
 
 ## From switches to logic gates
 
-![bg right:45% fit](images/logic-gates.svg)
+![bg right:45% fit](images/logic-gate-symbols.png)
 
 - Combine a few transistors → build a **logic gate**
 - Logic gates: AND, OR, NOT
@@ -694,8 +694,8 @@ def add(a, b):
 <!-- _footer: "" -->
 ## Image Credits
 
-- Diagrams (tower, logic gates, cloud, hero title, hero background): original, made for this deck
-- Voltage/binary signal diagram, binary background image, ASCII table: provided by the presenter
+- Diagrams (tower, cloud, hero title, hero background): original, made for this deck
+- Logic gate symbols, voltage/binary signal diagram, binary background image, ASCII table: provided by the presenter
 - Transistors, silicon wafer, CPU die, punched cards: ArnoldReinhold /
   Sangitiana Fararano / Revaldinho — CC BY / CC BY-SA, Wikimedia Commons
 - Keyboard, smartphone, data center: Jovonni Pharr / Gannu03 / Carl Lender —

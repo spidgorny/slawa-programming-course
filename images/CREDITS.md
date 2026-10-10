@@ -1,8 +1,10 @@
 # Image Credits
 
-Custom diagrams (`abstraction-tower.svg`, `logic-gates.svg`, `cloud-diagram.svg`,
+Custom diagrams (`abstraction-tower.svg`, `cloud-diagram.svg`,
 `hero-title.svg`, `hero-bg.svg`) were created for this deck — no attribution
 required, free to reuse/modify.
+
+`logic-gate-symbols.png` was provided by the presenter.
 
 Photos sourced from Wikimedia Commons:
 
