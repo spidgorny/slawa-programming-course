@@ -17,7 +17,6 @@ style: |
   section.hero h2,
   section.hero p {
     color: #f7fafc;
-    text-shadow: 0 2px 10px rgba(0,0,0,0.6);
   }
 ---
 
