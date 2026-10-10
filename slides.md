@@ -501,7 +501,6 @@ you a cleaning service — it's called garbage collection.*
 - Some languages are **compiled ahead of time** (like C)
 - Some languages are **interpreted** — translated and run on the fly
 - Many modern languages do a mix of both
-- *(We'll go deeper into this in a future lecture)*
 
 *😄 Compiled languages translate the whole book before you start reading.
 Interpreted languages translate it sentence by sentence while you read —
