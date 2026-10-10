@@ -13,9 +13,16 @@ style: |
   h2 {
     color: #2b6cb0;
   }
+  section.hero h1,
+  section.hero h2,
+  section.hero p {
+    color: #f7fafc;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.6);
+  }
 ---
 
-<!-- _class: lead -->
+<!-- _class: lead hero -->
+![bg](images/hero-title.svg)
 # From Electrons to Apps
 ## Levels of Abstraction in Computing
 
@@ -646,7 +653,7 @@ def add(a, b):
 <!-- _footer: "" -->
 ## Image Credits
 
-- Diagrams (tower, logic gates, cloud): original, made for this deck
+- Diagrams (tower, logic gates, cloud, hero title): original, made for this deck
 - Voltage/binary signal diagram, binary background image, ASCII table: provided by the presenter
 - Transistors, silicon wafer, CPU die, punched cards: ArnoldReinhold /
   Sangitiana Fararano / Revaldinho — CC BY / CC BY-SA, Wikimedia Commons
