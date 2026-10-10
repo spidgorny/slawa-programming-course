@@ -709,7 +709,7 @@ slower, but great if you keep changing your mind about the plot.*
 ---
 
 <!-- _class: lead -->
-# Programmers choose which floor of this tower to work on — or several.
+# Programmers can choose which floor of this tower to work on — or several.
 
 ## Questions?
 
