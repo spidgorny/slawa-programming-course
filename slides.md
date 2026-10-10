@@ -6,17 +6,57 @@ size: 16:9
 style: |
   section {
     font-size: 28px;
+    color: #e2e8f0;
+    background-color: #0a0e27;
+    background-image: url('images/hero-bg.svg');
+    background-size: cover;
+    background-position: center;
   }
-  h1 {
-    color: #2b6cb0;
+  h1, h2 {
+    color: #90cdf4;
   }
-  h2 {
-    color: #2b6cb0;
+  h3 {
+    color: #c3dafe;
   }
-  section.hero h1,
-  section.hero h2,
-  section.hero p {
+  strong {
     color: #f7fafc;
+  }
+  a {
+    color: #76c7f0;
+  }
+  code {
+    background-color: rgba(255,255,255,0.12);
+    color: #f6ad55;
+  }
+  pre {
+    background-color: rgba(10,14,39,0.75);
+    border: 1px solid rgba(255,255,255,0.15);
+  }
+  pre code {
+    background-color: transparent;
+    color: #e2e8f0;
+  }
+  table {
+    color: #e2e8f0;
+    border-color: rgba(255,255,255,0.35);
+    background-color: transparent !important;
+  }
+  table th, table td {
+    background-color: transparent !important;
+    color: #e2e8f0 !important;
+    border-color: rgba(255,255,255,0.35) !important;
+  }
+  table tr, table tr:nth-child(odd), table tr:nth-child(even) {
+    background-color: transparent !important;
+  }
+  table tr:nth-child(2n) td {
+    background-color: rgba(255,255,255,0.06) !important;
+  }
+  table thead th {
+    color: #90cdf4 !important;
+  }
+  section footer, section::after {
+    color: rgba(226,232,240,0.6);
   }
 ---
 
@@ -652,7 +692,7 @@ def add(a, b):
 <!-- _footer: "" -->
 ## Image Credits
 
-- Diagrams (tower, logic gates, cloud, hero title): original, made for this deck
+- Diagrams (tower, logic gates, cloud, hero title, hero background): original, made for this deck
 - Voltage/binary signal diagram, binary background image, ASCII table: provided by the presenter
 - Transistors, silicon wafer, CPU die, punched cards: ArnoldReinhold /
   Sangitiana Fararano / Revaldinho — CC BY / CC BY-SA, Wikimedia Commons
