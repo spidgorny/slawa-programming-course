@@ -58,7 +58,14 @@ style: |
   section footer, section::after {
     color: rgba(226,232,240,0.6);
   }
+  section footer {
+    font-size: 0.45em;
+    left: 20px;
+    right: auto;
+    bottom: 12px;
+  }
 ---
+<!-- _footer: 'Next: 🚀 Welcome!' -->
 
 <!-- _class: lead hero -->
 ![bg](images/hero-title.svg)
@@ -68,6 +75,7 @@ style: |
 A 1-hour journey from physics to the apps you use every day
 
 ---
+<!-- _footer: 'Next: What actually happens when you double-click an…' -->
 
 ## 🚀 Welcome!
 
@@ -83,6 +91,7 @@ By the end, every future "how does this work?" question gets a little
 less mysterious.
 
 ---
+<!-- _footer: 'Next: The Abstraction Tower 🗼' -->
 
 ## What actually happens when you double-click an icon?
 
@@ -91,6 +100,7 @@ less mysterious.
   between "electron" and "app opens"
 
 ---
+<!-- _footer: 'Next: 1. Electrons & Transistors' -->
 
 ## The Abstraction Tower 🗼
 
@@ -109,12 +119,14 @@ We'll climb it floor by floor:
 9. Bonus: The Cloud
 
 ---
+<!-- _footer: 'Next: It starts with electricity' -->
 
 <!-- _class: lead -->
 # 1. Electrons & Transistors
 ### Floor 0 — Physics
 
 ---
+<!-- _footer: 'Next: The transistor: a switch controlled by electricity' -->
 
 ## It starts with electricity
 
@@ -129,6 +141,7 @@ We'll climb it floor by floor:
 *A stream of 1s and 0s is really just voltage switching high and low over time*
 
 ---
+<!-- _footer: 'Next: Why does that matter?' -->
 
 ## The transistor: a switch controlled by electricity
 
@@ -142,6 +155,7 @@ We'll climb it floor by floor:
 *Photo: real discrete transistors — modern chips shrink these to billions per chip*
 
 ---
+<!-- _footer: 'Next: From switches to logic gates' -->
 
 ## Why does that matter?
 
@@ -150,6 +164,7 @@ We'll climb it floor by floor:
 - Each transistor makes a tiny **decision**: pass current, or don't
 
 ---
+<!-- _footer: 'Next: 🔗 Bridge: Floor 0 → Floor 1' -->
 
 ## From switches to logic gates
 
@@ -166,6 +181,7 @@ We'll climb it floor by floor:
 *Video: [a 1-minute visual explainer of logic gates](https://www.youtube.com/shorts/VJ3Xc52vRwg)*
 
 ---
+<!-- _footer: 'Next: 2. Bits & Bytes' -->
 
 <!-- _class: lead -->
 ## 🔗 Bridge: Floor 0 → Floor 1
@@ -182,12 +198,14 @@ It's humans who give it meaning. The same wire is just carrying electricity —
 it's humans who agree to call high voltage "1" and low voltage "0".*
 
 ---
+<!-- _footer: 'Next: The bit' -->
 
 <!-- _class: lead -->
 # 2. Bits & Bytes
 ### Floor 1 — Representing Information
 
 ---
+<!-- _footer: 'Next: The byte' -->
 
 ## The bit
 
@@ -197,6 +215,7 @@ it's humans who agree to call high voltage "1" and low voltage "0".*
 - The smallest unit of information a computer can store
 
 ---
+<!-- _footer: 'Next: Why binary, not decimal?' -->
 
 ## The byte
 
@@ -214,6 +233,7 @@ it's humans who agree to call high voltage "1" and low voltage "0".*
 ```
 
 ---
+<!-- _footer: 'Next: Bits represent everything' -->
 
 ## Why binary, not decimal?
 
@@ -228,6 +248,7 @@ it's humans who agree to call high voltage "1" and low voltage "0".*
 *Photo: a silicon wafer — the raw material chips are cut from*
 
 ---
+<!-- _footer: 'Next: 🔗 Bridge: Floor 1 → Floor 2' -->
 
 ## Bits represent *everything*
 
@@ -241,6 +262,7 @@ it's humans who agree to call high voltage "1" and low voltage "0".*
 **Key idea:** bits don't "know" what they mean — the program interpreting them decides.
 
 ---
+<!-- _footer: 'Next: 3. Logic Gates → CPU' -->
 
 <!-- _class: lead -->
 ## 🔗 Bridge: Floor 1 → Floor 2
@@ -254,12 +276,14 @@ it's humans who agree to call high voltage "1" and low voltage "0".*
   that's how a **CPU** is built
 
 ---
+<!-- _footer: 'Next: Combining gates: an adder' -->
 
 <!-- _class: lead -->
 # 3. Logic Gates → CPU
 ### Floor 2 — Building a Calculator from Switches
 
 ---
+<!-- _footer: 'Next: Zoom out: millions of these' -->
 
 ## Combining gates: an adder
 
@@ -271,6 +295,7 @@ it's humans who agree to call high voltage "1" and low voltage "0".*
 - Chain 8 of these together → a circuit that adds whole bytes (shown here)
 
 ---
+<!-- _footer: 'Next: Two more ingredients' -->
 
 ## Zoom out: millions of these
 
@@ -285,6 +310,7 @@ it's humans who agree to call high voltage "1" and low voltage "0".*
 *Photo: a real microprocessor die, magnified — every rectangle is functional circuitry*
 
 ---
+<!-- _footer: 'Next: 🔗 Bridge: Floor 2 → Floor 3' -->
 
 ## Two more ingredients
 
@@ -295,6 +321,7 @@ it's humans who agree to call high voltage "1" and low voltage "0".*
 **Key idea:** the CPU is a huge, fast calculator made entirely of on/off switches.
 
 ---
+<!-- _footer: 'Next: 4. Machine Code & Assembler' -->
 
 <!-- _class: lead -->
 ## 🔗 Bridge: Floor 2 → Floor 3
@@ -308,12 +335,14 @@ it's humans who agree to call high voltage "1" and low voltage "0".*
   machine code, written more conveniently via assembler
 
 ---
+<!-- _footer: 'Next: Machine code' -->
 
 <!-- _class: lead -->
 # 4. Machine Code & Assembler
 ### Floor 3 — Talking to the CPU
 
 ---
+<!-- _footer: 'Next: ⚠️ Data and instructions look identical' -->
 
 ## Machine code
 
@@ -327,6 +356,7 @@ it's humans who agree to call high voltage "1" and low voltage "0".*
 *Photo: a punched card deck — an early, physical way of feeding instructions to a computer*
 
 ---
+<!-- _footer: 'Next: Assembler: a thin translation layer' -->
 
 ## ⚠️ Data and instructions look identical
 
@@ -344,6 +374,7 @@ or an infinite loop, i.e. the computer **freezes**
 *This mix-up is also the root cause of classic security bugs like buffer overflows*
 
 ---
+<!-- _footer: 'Next: 🔗 Bridge: Floor 3 → Floor 4' -->
 
 ## Assembler: a thin translation layer
 
@@ -361,6 +392,7 @@ JMP loop    ; jump back to "loop"
 **Key idea:** assembler is a direct, human-readable translation of machine code.
 
 ---
+<!-- _footer: 'Next: 5. C — the "Portable Assembler"' -->
 
 <!-- _class: lead -->
 ## 🔗 Bridge: Floor 3 → Floor 4
@@ -374,12 +406,14 @@ JMP loop    ; jump back to "loop"
   loops — that a **compiler** translates to whichever CPU's machine code we need
 
 ---
+<!-- _footer: 'Next: The problem with assembly' -->
 
 <!-- _class: lead -->
 # 5. C — the "Portable Assembler"
 ### Floor 4 — Structured, Reusable Code
 
 ---
+<!-- _footer: 'Next: Enter C' -->
 
 ## The problem with assembly
 
@@ -392,6 +426,7 @@ markers and insist it builds character. C came along and said: maybe a
 trail map wouldn't hurt.*
 
 ---
+<!-- _footer: 'Next: The compiler' -->
 
 ## Enter C
 
@@ -406,6 +441,7 @@ int add(int a, int b) {
 - Nicknamed "portable assembler" — same ideas, works on many CPUs
 
 ---
+<!-- _footer: 'Next: Source code vs. the executable' -->
 
 ## The compiler
 
@@ -414,6 +450,7 @@ int add(int a, int b) {
 - This is what makes C "portable"
 
 ---
+<!-- _footer: 'Next: Where C lives today' -->
 
 ## Source code vs. the executable
 
@@ -438,6 +475,7 @@ section { font-size: 24px; }
 equivalent of changing the recipe but serving yesterday's cake.*
 
 ---
+<!-- _footer: 'Next: 🔗 Bridge: Floor 4 → Floor 5' -->
 
 ## Where C lives today
 
@@ -448,6 +486,7 @@ equivalent of changing the recipe but serving yesterday's cake.*
 - Performance-critical software
 
 ---
+<!-- _footer: 'Next: 6. Higher-Level Languages' -->
 
 <!-- _class: lead -->
 ## 🔗 Bridge: Floor 4 → Floor 5
@@ -461,12 +500,14 @@ equivalent of changing the recipe but serving yesterday's cake.*
   more — trade a little control for a lot of readability and speed
 
 ---
+<!-- _footer: 'Next: The problem C still has' -->
 
 <!-- _class: lead -->
 # 6. Higher-Level Languages
 ### Floor 5 — Closer to Human Thinking
 
 ---
+<!-- _footer: 'Next: Higher-level languages' -->
 
 ## The problem C still has
 
@@ -475,6 +516,7 @@ equivalent of changing the recipe but serving yesterday's cake.*
 - Still thinking like the machine, not like a human
 
 ---
+<!-- _footer: 'Next: Compiled vs. interpreted (just the vocabulary)' -->
 
 ## Higher-level languages
 
@@ -493,6 +535,7 @@ up every room you ever walk into, forever. Higher-level languages hired
 you a cleaning service — it's called garbage collection.*
 
 ---
+<!-- _footer: 'Next: 🔗 Bridge: Floor 5 → Floor 6' -->
 
 ## Compiled vs. interpreted (just the vocabulary)
 
@@ -507,6 +550,7 @@ slower, but great if you keep changing your mind about the plot.*
 **Key idea:** every layer trades a bit of performance/control for speed of writing and readability.
 
 ---
+<!-- _footer: 'Next: 7. Operating Systems' -->
 
 <!-- _class: lead -->
 ## 🔗 Bridge: Floor 5 → Floor 6
@@ -521,12 +565,14 @@ slower, but great if you keep changing your mind about the plot.*
   it safely between every running program
 
 ---
+<!-- _footer: 'Next: What does an OS actually do?' -->
 
 <!-- _class: lead -->
 # 7. Operating Systems
 ### Floor 6 — Sharing the Machine
 
 ---
+<!-- _footer: 'Next: A few key concepts' -->
 
 ## What does an OS actually do?
 
@@ -535,6 +581,7 @@ slower, but great if you keep changing your mind about the plot.*
 - Without it, every app would need to know how to talk to every device directly
 
 ---
+<!-- _footer: 'Next: Same idea, different implementations' -->
 
 ## A few key concepts
 
@@ -543,6 +590,7 @@ slower, but great if you keep changing your mind about the plot.*
 - **Driver** — small piece of software that lets the OS talk to specific hardware
 
 ---
+<!-- _footer: 'Next: 🎥 Demo: seeing processes live' -->
 
 ## Same idea, different implementations
 
@@ -555,6 +603,7 @@ slower, but great if you keep changing your mind about the plot.*
 *Tux the penguin — mascot of the Linux kernel*
 
 ---
+<!-- _footer: 'Next: 🔗 Bridge: Floor 6 → Floor 7' -->
 
 ## 🎥 Demo: seeing processes live
 
@@ -563,6 +612,7 @@ slower, but great if you keep changing your mind about the plot.*
 - This is the OS doing its job, visibly, in real time
 
 ---
+<!-- _footer: 'Next: 8. User Applications' -->
 
 <!-- _class: lead -->
 ## 🔗 Bridge: Floor 6 → Floor 7
@@ -576,12 +626,14 @@ slower, but great if you keep changing your mind about the plot.*
   processor — everything you actually click on and use
 
 ---
+<!-- _footer: 'Next: Apps are built on everything below' -->
 
 <!-- _class: lead -->
 # 8. User Applications
 ### Floor 7 — What You Actually See
 
 ---
+<!-- _footer: 'Next: Full circle 🔄' -->
 
 ## Apps are built on everything below
 
@@ -595,6 +647,7 @@ slower, but great if you keep changing your mind about the plot.*
   - Which are, in the end, electrons flipping switches — billions of times per second
 
 ---
+<!-- _footer: 'Next: 🔗 Bridge: Floor 7 → Bonus Floor' -->
 
 ## Full circle 🔄
 
@@ -606,6 +659,7 @@ slower, but great if you keep changing your mind about the plot.*
 → Voltage levels are just electrons moving through transistors
 
 ---
+<!-- _footer: 'Next: 9. The Cloud' -->
 
 <!-- _class: lead -->
 ## 🔗 Bridge: Floor 7 → Bonus Floor
@@ -620,12 +674,14 @@ slower, but great if you keep changing your mind about the plot.*
   calls **"the cloud"**
 
 ---
+<!-- _footer: 'Next: Wait — does the app run on my computer?' -->
 
 <!-- _class: lead -->
 # 9. The Cloud
 ### Bonus Floor — Computers Running Somewhere Else
 
 ---
+<!-- _footer: 'Next: So what is "the cloud"?' -->
 
 ## Wait — does the app run on *my* computer?
 
@@ -635,6 +691,7 @@ slower, but great if you keep changing your mind about the plot.*
 - That request is handled by **another computer**, somewhere else entirely
 
 ---
+<!-- _footer: 'Next: Inside a data center' -->
 
 ## So what *is* "the cloud"?
 
@@ -646,6 +703,7 @@ slower, but great if you keep changing your mind about the plot.*
 - The only difference: it's not sitting on your desk
 
 ---
+<!-- _footer: 'Next: Why use someone else''s computer?' -->
 
 ## Inside a data center
 
@@ -658,6 +716,7 @@ slower, but great if you keep changing your mind about the plot.*
   power to others
 
 ---
+<!-- _footer: 'Next: Same tower, just far away 🔁' -->
 
 ## Why use someone else's computer?
 
@@ -667,6 +726,7 @@ slower, but great if you keep changing your mind about the plot.*
 - **Cost** — pay only for what you use, instead of buying your own hardware
 
 ---
+<!-- _footer: 'Next: 🔗 Bridge: Bonus Floor → Recap' -->
 
 ## Same tower, just far away 🔁
 
@@ -675,6 +735,7 @@ slower, but great if you keep changing your mind about the plot.*
 - "The cloud" = a lot of familiar towers, networked together, out of sight
 
 ---
+<!-- _footer: 'Next: Putting It All Together' -->
 
 <!-- _class: lead -->
 ## 🔗 Bridge: Bonus Floor → Recap
@@ -686,11 +747,13 @@ slower, but great if you keep changing your mind about the plot.*
   floor, so it clicks as a single connected idea rather than nine separate ones
 
 ---
+<!-- _footer: 'Next: The full ladder, one line each' -->
 
 <!-- _class: lead -->
 # Putting It All Together
 
 ---
+<!-- _footer: 'Next: Programmers can choose which floor of this tower…' -->
 
 ## The full ladder, one line each
 
@@ -705,6 +768,7 @@ slower, but great if you keep changing your mind about the plot.*
 9. **The cloud** is just more of these towers, somewhere else
 
 ---
+<!-- _footer: 'Next: Image Credits' -->
 
 <!-- _class: lead -->
 # Programmers can choose which floor of this tower to work on — or several.
