@@ -108,8 +108,6 @@ We'll climb it floor by floor:
 8. User Applications
 9. Bonus: The Cloud
 
-*(This slide comes back between every section — watch the current floor light up)*
-
 ---
 
 <!-- _class: lead -->
