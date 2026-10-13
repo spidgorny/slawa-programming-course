@@ -58,14 +58,7 @@ style: |
   section footer, section::after {
     color: rgba(226,232,240,0.6);
   }
-  section footer {
-    font-size: 0.45em;
-    left: 20px;
-    right: auto;
-    bottom: 12px;
-  }
 ---
-<!-- _footer: 'Next: 🚀 Welcome!' -->
 
 <!-- _class: lead hero -->
 ![bg](images/hero-title.svg)
@@ -74,33 +67,23 @@ style: |
 
 A 1-hour journey from physics to the apps you use every day
 
----
-<!-- _footer: 'Next: What actually happens when you double-click an…' -->
-
-## 🚀 Welcome!
-
-Ever wonder what *actually* happens when you double-click an icon?
-
-We'll zoom in all the way to the electrons flowing through a CPU's
-transistors — then zoom back out, floor by floor, through bits, logic
-gates, machine code, C, modern languages, operating systems, apps —
-and even "the cloud" (spoiler: it's just someone else's computer).
-
-**No prior programming knowledge needed — just curiosity.**
-By the end, every future "how does this work?" question gets a little
-less mysterious.
+<!-- Next: What actually happens when you double-click an icon? -->
 
 ---
-<!-- _footer: 'Next: The Abstraction Tower 🗼' -->
 
-## What actually happens when you double-click an icon?
+## 🚀 What actually happens when you double-click an icon?
 
 - Somewhere, **electrons** start moving in a very specific pattern
-- By the end of this hour, you'll be able to explain *every step*
-  between "electron" and "app opens"
+- Today we zoom all the way down to those electrons — then climb back up,
+  floor by floor, to the app on your screen (and even "the cloud")
+- **No prior programming knowledge needed — just curiosity**
+- By the end, you'll be able to follow the path from "electron" to "app opens"
+
+<!-- Next: The Abstraction Tower 🗼
+
+Spoiler for later: the cloud is just someone else's computer. -->
 
 ---
-<!-- _footer: 'Next: 1. Electrons & Transistors' -->
 
 ## The Abstraction Tower 🗼
 
@@ -118,15 +101,19 @@ We'll climb it floor by floor:
 8. User Applications
 9. Bonus: The Cloud
 
+<!-- Next: 1. Electrons & Transistors -->
+
 ---
-<!-- _footer: 'Next: It starts with electricity' -->
 
 <!-- _class: lead -->
 # 1. Electrons & Transistors
-### Floor 0 — Physics
+### Floor 1 — Physics
+
+Where does it all begin?
+
+<!-- Next: It starts with electricity -->
 
 ---
-<!-- _footer: 'Next: The transistor: a switch controlled by electricity' -->
 
 ## It starts with electricity
 
@@ -140,8 +127,9 @@ We'll climb it floor by floor:
 
 *A stream of 1s and 0s is really just voltage switching high and low over time*
 
+<!-- Next: The transistor: a switch controlled by electricity -->
+
 ---
-<!-- _footer: 'Next: Why does that matter?' -->
 
 ## The transistor: a switch controlled by electricity
 
@@ -154,58 +142,44 @@ We'll climb it floor by floor:
 
 *Photo: real discrete transistors — modern chips shrink these to billions per chip*
 
+<!-- Next: Why does that matter? -->
+
 ---
-<!-- _footer: 'Next: From switches to logic gates' -->
 
 ## Why does that matter?
+
+![bg right:40% fit](images/silicon-wafer.jpg)
 
 - If one signal can turn another on/off...
 - ...we can chain millions of them together
 - Each transistor makes a tiny **decision**: pass current, or don't
 
----
-<!-- _footer: 'Next: 🔗 Bridge: Floor 0 → Floor 1' -->
+**Key idea:** physics gives us a reliable on/off switch.
 
-## From switches to logic gates
+*Photo: a silicon wafer — each square becomes a chip with billions of transistors*
 
-![bg right:45% fit](images/logic-gate-symbols.png)
-
-- Combine a few transistors → build a **logic gate**
-- Logic gates: AND, OR, NOT
-  - AND → true only if *both* inputs are on
-  - OR → true if *either* input is on
-  - NOT → flips the signal
-
-**Key idea:** everything below this point is just physics turning into a yes/no signal.
-
-*Video: [a 1-minute visual explainer of logic gates](https://www.youtube.com/shorts/VJ3Xc52vRwg)*
+<!-- Next: 2. Bits & Bytes -->
 
 ---
-<!-- _footer: 'Next: 2. Bits & Bytes' -->
 
 <!-- _class: lead -->
-## 🔗 Bridge: Floor 0 → Floor 1
-### From switches to information
+# 2. Bits & Bytes
+### Floor 2 — Representing Information
 
-- **We just built:** transistors combined into logic gates (AND/OR/NOT) that
-  turn electricity into a reliable yes/no signal
-- **Next question:** what do we actually *do* with billions of these signals?
-- **Answer:** we group them into **bits** and **bytes** to represent real
-  information — numbers, letters, colors, sound
+How do on/off signals become *information*?
 
 *A glass of water is neither half full nor half empty — it just is as it is.
 It's humans who give it meaning. The same wire is just carrying electricity —
 it's humans who agree to call high voltage "1" and low voltage "0".*
 
----
-<!-- _footer: 'Next: The bit' -->
+<!-- Next: The bit
 
-<!-- _class: lead -->
-# 2. Bits & Bytes
-### Floor 1 — Representing Information
+Bridge: we just built transistors — switches that turn electricity into a
+reliable yes/no signal. What do we actually do with billions of these
+signals? We group them into bits and bytes to represent real information:
+numbers, letters, colors, sound. -->
 
 ---
-<!-- _footer: 'Next: The byte' -->
 
 ## The bit
 
@@ -214,8 +188,15 @@ it's humans who agree to call high voltage "1" and low voltage "0".*
 - **Bit** = one on/off signal = one 0 or one 1
 - The smallest unit of information a computer can store
 
+🙋 **Try it:** count to 5 on one hand in binary —
+finger up = 1, finger down = 0 (5 = `101`)
+
+<!-- Next: The byte
+
+Activity: rightmost finger = 1, next = 2, next = 4. 1 = thumb, 2 = index,
+3 = thumb + index, 4 = middle, 5 = thumb + middle. Five fingers count to 31. -->
+
 ---
-<!-- _footer: 'Next: Why binary, not decimal?' -->
 
 ## The byte
 
@@ -232,23 +213,25 @@ it's humans who agree to call high voltage "1" and low voltage "0".*
 1111 1111  = 255
 ```
 
+<!-- Next: Why binary, not decimal? -->
+
 ---
-<!-- _footer: 'Next: Bits represent everything' -->
 
 ## Why binary, not decimal?
 
-![bg right:40% fit](images/silicon-wafer.jpg)
+![bg right:45% fit](images/binary-levels.svg)
 
 - Building a reliable switch with exactly 2 states (on/off) is easy
-- Building a reliable switch with 10 states would be very hard
+- Building a reliable switch with 10 states would be very hard —
+  electrical noise blurs neighbouring levels
 - Binary isn't a choice for convenience — it's a choice for **reliability**
 
-*😄 There are 10 types of people in the world: those who understand binary, and those who don't.*
+<!-- Next: Bits represent everything
 
-*Photo: a silicon wafer — the raw material chips are cut from*
+😄 Joke — There are 10 types of people in the world: those who understand
+binary, and those who don't. -->
 
 ---
-<!-- _footer: 'Next: 🔗 Bridge: Floor 1 → Floor 2' -->
 
 ## Bits represent *everything*
 
@@ -261,88 +244,106 @@ it's humans who agree to call high voltage "1" and low voltage "0".*
 
 **Key idea:** bits don't "know" what they mean — the program interpreting them decides.
 
----
-<!-- _footer: 'Next: 3. Logic Gates → CPU' -->
-
-<!-- _class: lead -->
-## 🔗 Bridge: Floor 1 → Floor 2
-### From storing information to computing with it
-
-- **We just learned:** bits and bytes let us *represent* numbers, letters,
-  colors, and sound
-- **Next question:** representing data is nice, but how do we *calculate*
-  with it — add two numbers, compare them, move them around?
-- **Answer:** wire logic gates together into circuits that actually compute —
-  that's how a **CPU** is built
+<!-- Next: 3. Logic Gates → CPU -->
 
 ---
-<!-- _footer: 'Next: Combining gates: an adder' -->
 
 <!-- _class: lead -->
 # 3. Logic Gates → CPU
-### Floor 2 — Building a Calculator from Switches
+### Floor 3 — Building a Calculator from Switches
+
+Storing information is nice — but how do we *compute* with it?
+
+<!-- Next: From switches to logic gates
+
+Bridge: bits and bytes let us represent numbers, letters, colors, sound.
+But how do we calculate with them — add two numbers, compare them, move
+them around? We wire transistors into logic gates, and gates into circuits
+that compute. That's how a CPU is built. -->
 
 ---
-<!-- _footer: 'Next: Zoom out: millions of these' -->
+
+## From switches to logic gates
+
+![bg right:45% fit](images/logic-gate-symbols.png)
+
+- Combine a few transistors → build a **logic gate**
+- Logic gates: AND, OR, NOT (and friends like XOR)
+  - AND → 1 only if *both* inputs are 1
+  - OR → 1 if *either* input is 1
+  - NOT → flips the bit
+
+**Key idea:** a gate is a tiny decision-maker working on bits.
+
+*Video: [a 1-minute visual explainer of logic gates](https://www.youtube.com/shorts/VJ3Xc52vRwg)*
+
+<!-- Next: Combining gates: an adder
+
+If there is no internet: skip the video and walk through the gate symbols
+in the image instead. -->
+
+---
 
 ## Combining gates: an adder
 
 ![bg right:48% fit](images/adder-circuit.png)
 
-- Take two 1-bit numbers, want to add them
-- A small circuit of AND/OR/NOT gates can compute the sum + carry
-- This is a real circuit: **the binary adder**
-- Chain 8 of these together → a circuit that adds whole bytes (shown here)
+- Adding two bits: 1 + 1 = `10` → sum 0, carry 1
+- **XOR** gate → the sum bit, **AND** gate → the carry bit
+  (a "half adder")
+- Also accept a carry-in → a "full adder"
+- Chain 8 full adders → a circuit that adds whole bytes (shown here)
+
+<!-- Next: Zoom out: millions of these -->
 
 ---
-<!-- _footer: 'Next: Two more ingredients' -->
 
 ## Zoom out: millions of these
 
 ![bg right:42% fit](images/cpu-die.jpg)
 
-- Chain adders together → add whole bytes, whole numbers
+- Wider adders → add 32- or 64-bit numbers
 - Add more circuits → multiply, compare, move data around
 - Package **millions to billions** of transistors into one chip
 
-## That chip is the CPU
+**That chip is the CPU.**
 
 *Photo: a real microprocessor die, magnified — every rectangle is functional circuitry*
 
----
-<!-- _footer: 'Next: 🔗 Bridge: Floor 2 → Floor 3' -->
+<!-- Next: Three more ingredients -->
 
-## Two more ingredients
+---
+
+## Three more ingredients
 
 - **Registers** — tiny, extremely fast storage slots inside the CPU
+- **Memory (RAM)** — outside the CPU; holds the program's instructions
+  *and* its data
 - **Clock** — a ticking signal that paces every step
   (modern CPUs tick billions of times per second — GHz)
 
+On every tick, the CPU repeats: **fetch** an instruction from memory →
+**decode** it → **execute** it
+
 **Key idea:** the CPU is a huge, fast calculator made entirely of on/off switches.
 
----
-<!-- _footer: 'Next: 4. Machine Code & Assembler' -->
-
-<!-- _class: lead -->
-## 🔗 Bridge: Floor 2 → Floor 3
-### From a calculator to a set of commands
-
-- **We just built:** a CPU — millions of gates, registers, and a clock, all
-  able to do arithmetic on bits
-- **Next question:** a calculator alone does nothing — how do we *tell* it
-  what to calculate, and in what order?
-- **Answer:** we give it a sequence of **instructions** it understands —
-  machine code, written more conveniently via assembler
+<!-- Next: 4. Machine Code & Assembler -->
 
 ---
-<!-- _footer: 'Next: Machine code' -->
 
 <!-- _class: lead -->
 # 4. Machine Code & Assembler
-### Floor 3 — Talking to the CPU
+### Floor 4 — Talking to the CPU
+
+A calculator alone does nothing — how do we *tell* it what to do?
+
+<!-- Next: Machine code
+
+Bridge: we built a CPU — millions of gates, registers, memory and a clock,
+able to do arithmetic on bits. We give it a sequence of instructions it
+understands: machine code, written more conveniently via assembler. -->
 
 ---
-<!-- _footer: 'Next: ⚠️ Data and instructions look identical' -->
 
 ## Machine code
 
@@ -355,15 +356,16 @@ it's humans who agree to call high voltage "1" and low voltage "0".*
 
 *Photo: a punched card deck — an early, physical way of feeding instructions to a computer*
 
+<!-- Next: ⚠️ Data and instructions look identical -->
+
 ---
-<!-- _footer: 'Next: Assembler: a thin translation layer' -->
 
 ## ⚠️ Data and instructions look identical
 
 - Memory just stores **bytes** — `01100001` could mean:
   - the number 97
   - the letter `a`
-  - or the instruction "add register B to register A"
+  - or part of a machine instruction
 - The CPU doesn't "know" which one it is — *context* decides
 - Programs and data live in the **same memory**, side by side
 
@@ -373,8 +375,9 @@ or an infinite loop, i.e. the computer **freezes**
 
 *This mix-up is also the root cause of classic security bugs like buffer overflows*
 
+<!-- Next: Assembler: a thin translation layer -->
+
 ---
-<!-- _footer: 'Next: 🔗 Bridge: Floor 3 → Floor 4' -->
 
 ## Assembler: a thin translation layer
 
@@ -391,42 +394,40 @@ JMP loop    ; jump back to "loop"
 
 **Key idea:** assembler is a direct, human-readable translation of machine code.
 
----
-<!-- _footer: 'Next: 5. C — the "Portable Assembler"' -->
-
-<!-- _class: lead -->
-## 🔗 Bridge: Floor 3 → Floor 4
-### From one CPU's dialect to a portable language
-
-- **We just saw:** assembler instructions map almost 1:1 to machine code —
-  but only for *one specific* CPU type, and they're tedious to write
-- **Next question:** what if we want to write code once and run it on many
-  different CPUs, with less tedium and fewer mistakes?
-- **Answer:** introduce a language with structure — variables, functions,
-  loops — that a **compiler** translates to whichever CPU's machine code we need
+<!-- Next: 5. C — the "Portable Assembler" -->
 
 ---
-<!-- _footer: 'Next: The problem with assembly' -->
 
 <!-- _class: lead -->
 # 5. C — the "Portable Assembler"
-### Floor 4 — Structured, Reusable Code
+### Floor 5 — Structured, Reusable Code
+
+What if we could write code once and run it on many CPUs?
+
+<!-- Next: The problem with assembly
+
+Bridge: assembler maps almost 1:1 to machine code — but only for one
+specific CPU type, and it's tedious to write. We introduce a language with
+structure — variables, functions, loops — that a compiler translates to
+whichever CPU's machine code we need. -->
 
 ---
-<!-- _footer: 'Next: Enter C' -->
 
 ## The problem with assembly
+
+![bg right:38% fit](images/keyboard.jpg)
 
 - Tied to *one specific* CPU type
 - Extremely tedious to write
 - Very easy to make mistakes (no safety nets)
 
-*😄 Assembly programmers are the people who hike without GPS or trail
+<!-- Next: Enter C
+
+😄 Joke — Assembly programmers are the people who hike without GPS or trail
 markers and insist it builds character. C came along and said: maybe a
-trail map wouldn't hurt.*
+trail map wouldn't hurt. -->
 
 ---
-<!-- _footer: 'Next: The compiler' -->
 
 ## Enter C
 
@@ -440,8 +441,9 @@ int add(int a, int b) {
 - Still maps closely to what the machine actually does
 - Nicknamed "portable assembler" — same ideas, works on many CPUs
 
+<!-- Next: The compiler -->
+
 ---
-<!-- _footer: 'Next: Source code vs. the executable' -->
 
 ## The compiler
 
@@ -449,8 +451,9 @@ int add(int a, int b) {
 - Different compiler per target CPU, same C source code
 - This is what makes C "portable"
 
+<!-- Next: Source code vs. the executable -->
+
 ---
-<!-- _footer: 'Next: Where C lives today' -->
 
 ## Source code vs. the executable
 
@@ -470,53 +473,54 @@ section { font-size: 24px; }
 | Can you run / edit it? | no / yes | yes / not really |
 
 - Edit the `.c` file → you must **recompile** to get an updated binary
+- An executable is built for one CPU **and** one OS — a Windows `.exe`
+  won't run on a Mac
 
-*😄 Forgetting to recompile after editing your code is the programming
-equivalent of changing the recipe but serving yesterday's cake.*
+<!-- Next: Where C lives today
+
+😄 Joke — Forgetting to recompile after editing your code is the programming
+equivalent of changing the recipe but serving yesterday's cake. -->
 
 ---
-<!-- _footer: 'Next: 🔗 Bridge: Floor 4 → Floor 5' -->
 
 ## Where C lives today
 
-![bg right:38% fit](images/keyboard.jpg)
+![bg right:40% fit](images/c-everywhere.svg)
 
 - Operating system kernels (Linux, parts of Windows/macOS)
 - Embedded systems (microwaves, cars, routers)
-- Performance-critical software
+- Performance-critical software (databases, game engines)
+
+<!-- Next: 6. Higher-Level Languages -->
 
 ---
-<!-- _footer: 'Next: 6. Higher-Level Languages' -->
-
-<!-- _class: lead -->
-## 🔗 Bridge: Floor 4 → Floor 5
-### From close-to-the-machine to close-to-human-thinking
-
-- **We just saw:** C is portable and structured, but you still manage memory
-  yourself, and it takes a lot of code to express simple ideas
-- **Next question:** can we write code that reads more like plain thinking,
-  and let the computer handle the tedious bookkeeping?
-- **Answer:** higher-level languages — Python, JavaScript, Java, and many
-  more — trade a little control for a lot of readability and speed
-
----
-<!-- _footer: 'Next: The problem C still has' -->
 
 <!-- _class: lead -->
 # 6. Higher-Level Languages
-### Floor 5 — Closer to Human Thinking
+### Floor 6 — Closer to Human Thinking
+
+Can code read more like plain thinking?
+
+<!-- Next: The problem C still has
+
+Bridge: C is portable and structured, but you still manage memory yourself,
+and it takes a lot of code to express simple ideas. Higher-level languages —
+Python, JavaScript, Java and many more — trade a little control for a lot
+of readability and speed of development. -->
 
 ---
-<!-- _footer: 'Next: Higher-level languages' -->
 
 ## The problem C still has
 
-- You manage memory yourself (easy to get wrong)
+![bg right:42% fit](images/memory-problems.svg)
+
+- You manage memory yourself — easy to get wrong
 - Verbose — lots of code for simple ideas
 - Still thinking like the machine, not like a human
 
+<!-- Next: Higher-level languages -->
+
 ---
-<!-- _footer: 'Next: Compiled vs. interpreted (just the vocabulary)' -->
 
 ## Higher-level languages
 
@@ -530,12 +534,13 @@ def add(a, b):
     return a + b
 ```
 
-*😄 In C, managing memory yourself is like being responsible for cleaning
-up every room you ever walk into, forever. Higher-level languages hired
-you a cleaning service — it's called garbage collection.*
+<!-- Next: Compiled vs. interpreted (just the vocabulary)
+
+😄 Joke — In C, managing memory yourself is like being responsible for
+cleaning up every room you ever walk into, forever. Higher-level languages
+hired you a cleaning service — it's called garbage collection. -->
 
 ---
-<!-- _footer: 'Next: 🔗 Bridge: Floor 5 → Floor 6' -->
 
 ## Compiled vs. interpreted (just the vocabulary)
 
@@ -543,36 +548,30 @@ you a cleaning service — it's called garbage collection.*
 - Some languages are **interpreted** — translated and run on the fly
 - Many modern languages do a mix of both
 
-*😄 Compiled languages translate the whole book before you start reading.
-Interpreted languages translate it sentence by sentence while you read —
-slower, but great if you keep changing your mind about the plot.*
-
 **Key idea:** every layer trades a bit of performance/control for speed of writing and readability.
 
----
-<!-- _footer: 'Next: 7. Operating Systems' -->
+<!-- Next: 7. Operating Systems
 
-<!-- _class: lead -->
-## 🔗 Bridge: Floor 5 → Floor 6
-### From one program to many programs sharing one machine
-
-- **We just learned:** higher-level languages let us write programs quickly,
-  in whichever language fits the job
-- **Next question:** your computer runs *many* programs at once (browser,
-  music, this slideshow) — who decides which one gets the CPU, memory, and
-  screen right now?
-- **Answer:** the **operating system** — it manages the hardware and shares
-  it safely between every running program
+😄 Joke — Compiled languages translate the whole book before you start
+reading. Interpreted languages translate it sentence by sentence while you
+read — slower, but great if you keep changing your mind about the plot. -->
 
 ---
-<!-- _footer: 'Next: What does an OS actually do?' -->
 
 <!-- _class: lead -->
 # 7. Operating Systems
-### Floor 6 — Sharing the Machine
+### Floor 7 — Sharing the Machine
+
+Many programs, one machine — who's in charge?
+
+<!-- Next: What does an OS actually do?
+
+Bridge: your computer runs many programs at once (browser, music, this
+slideshow). Who decides which one gets the CPU, memory and screen right
+now? The operating system — it manages the hardware and shares it safely
+between every running program. -->
 
 ---
-<!-- _footer: 'Next: A few key concepts' -->
 
 ## What does an OS actually do?
 
@@ -580,17 +579,23 @@ slower, but great if you keep changing your mind about the plot.*
 - Shares that hardware safely between **many** running programs
 - Without it, every app would need to know how to talk to every device directly
 
+<!-- Next: A few key concepts -->
+
 ---
-<!-- _footer: 'Next: Same idea, different implementations' -->
 
 ## A few key concepts
 
+![bg right:45% fit](images/os-layers.svg)
+
 - **Process** — a running program, with its own slice of memory and CPU time
 - **File** — a named chunk of data stored on disk, managed by the OS
-- **Driver** — small piece of software that lets the OS talk to specific hardware
+- **System call** — how an app asks the OS for something
+  ("open this file", "send this over the network")
+- **Driver** — software that lets the OS talk to specific hardware
+
+<!-- Next: Same idea, different implementations -->
 
 ---
-<!-- _footer: 'Next: 🎥 Demo: seeing processes live' -->
 
 ## Same idea, different implementations
 
@@ -602,38 +607,37 @@ slower, but great if you keep changing your mind about the plot.*
 
 *Tux the penguin — mascot of the Linux kernel*
 
+<!-- Next: 🎥 Demo: seeing processes live -->
+
 ---
-<!-- _footer: 'Next: 🔗 Bridge: Floor 6 → Floor 7' -->
 
 ## 🎥 Demo: seeing processes live
 
+🙋 **Guess first:** how many processes are running on this laptop right now?
+
 - Open Task Manager (Windows) or Activity Monitor (macOS)
-- Point out: dozens of processes running *right now*
+- Point out: dozens — often hundreds — of processes running *right now*
 - This is the OS doing its job, visibly, in real time
 
----
-<!-- _footer: 'Next: 8. User Applications' -->
+<!-- Next: 8. User Applications
 
-<!-- _class: lead -->
-## 🔗 Bridge: Floor 6 → Floor 7
-### From managing hardware to what you actually see
-
-- **We just learned:** the OS manages processes, files, and drivers, and
-  shares the hardware between programs
-- **Next question:** the OS runs programs, but what *are* those programs,
-  from your point of view as a user?
-- **Answer:** they're the **applications** — the browser, the game, the word
-  processor — everything you actually click on and use
+Collect a few guesses (by show of hands) before opening the tool. -->
 
 ---
-<!-- _footer: 'Next: Apps are built on everything below' -->
 
 <!-- _class: lead -->
 # 8. User Applications
-### Floor 7 — What You Actually See
+### Floor 8 — What You Actually See
+
+So what *are* all those programs, from your point of view?
+
+<!-- Next: Apps are built on everything below
+
+Bridge: the OS manages processes, files and drivers. The programs it runs
+are the applications — the browser, the game, the word processor —
+everything you actually click on and use. -->
 
 ---
-<!-- _footer: 'Next: Full circle 🔄' -->
 
 ## Apps are built on everything below
 
@@ -646,8 +650,9 @@ slower, but great if you keep changing your mind about the plot.*
   - Ultimately runs as CPU instructions
   - Which are, in the end, electrons flipping switches — billions of times per second
 
+<!-- Next: Full circle 🔄 -->
+
 ---
-<!-- _footer: 'Next: 🔗 Bridge: Floor 7 → Bonus Floor' -->
 
 ## Full circle 🔄
 
@@ -658,30 +663,24 @@ slower, but great if you keep changing your mind about the plot.*
 → Bits are just voltage levels
 → Voltage levels are just electrons moving through transistors
 
----
-<!-- _footer: 'Next: 9. The Cloud' -->
-
-<!-- _class: lead -->
-## 🔗 Bridge: Floor 7 → Bonus Floor
-### From your device to every device
-
-- **We just closed the loop:** on *your* device, apps run all the way down
-  to electrons — a complete, self-contained tower
-- **Next question:** but many apps you use daily (weather, chat, video)
-  clearly involve *other* computers too — where are those, and how do
-  they fit in?
-- **Answer:** those other computers live in data centers — what everyone
-  calls **"the cloud"**
+<!-- Next: 9. The Cloud -->
 
 ---
-<!-- _footer: 'Next: Wait — does the app run on my computer?' -->
 
 <!-- _class: lead -->
 # 9. The Cloud
 ### Bonus Floor — Computers Running Somewhere Else
 
+Many apps clearly involve *other* computers — where are they?
+
+<!-- Next: Wait — does the app run on my computer?
+
+Bridge: on your device, apps run all the way down to electrons — a
+complete, self-contained tower. But weather, chat and video involve other
+computers too. Those live in data centers — what everyone calls "the
+cloud". -->
+
 ---
-<!-- _footer: 'Next: So what is "the cloud"?' -->
 
 ## Wait — does the app run on *my* computer?
 
@@ -689,9 +688,12 @@ slower, but great if you keep changing your mind about the plot.*
 - When you check the weather, chat, or stream a video, your device sends a
   request over the internet
 - That request is handled by **another computer**, somewhere else entirely
+- On the way, the same bits travel as electrical pulses, light in
+  fiber-optic cables, or radio waves (Wi-Fi, 5G)
+
+<!-- Next: So what is "the cloud"? -->
 
 ---
-<!-- _footer: 'Next: Inside a data center' -->
 
 ## So what *is* "the cloud"?
 
@@ -702,8 +704,9 @@ slower, but great if you keep changing your mind about the plot.*
 - Same electrons, same transistors, same CPU, same OS, same apps we just learned about
 - The only difference: it's not sitting on your desk
 
+<!-- Next: Inside a data center -->
+
 ---
-<!-- _footer: 'Next: Why use someone else''s computer?' -->
 
 ## Inside a data center
 
@@ -715,8 +718,9 @@ slower, but great if you keep changing your mind about the plot.*
 - Owned by companies (Amazon, Google, Microsoft, etc.) who rent out computing
   power to others
 
+<!-- Next: Why use someone else's computer? -->
+
 ---
-<!-- _footer: 'Next: Same tower, just far away 🔁' -->
 
 ## Why use someone else's computer?
 
@@ -725,8 +729,9 @@ slower, but great if you keep changing your mind about the plot.*
 - **Access anywhere** — your data/app is reachable from any device, anywhere
 - **Cost** — pay only for what you use, instead of buying your own hardware
 
+<!-- Next: Same tower, just far away 🔁 -->
+
 ---
-<!-- _footer: 'Next: 🔗 Bridge: Bonus Floor → Recap' -->
 
 ## Same tower, just far away 🔁
 
@@ -734,32 +739,26 @@ slower, but great if you keep changing your mind about the plot.*
 - It just also **talks to another tower**, in a data center, over a network
 - "The cloud" = a lot of familiar towers, networked together, out of sight
 
----
-<!-- _footer: 'Next: Putting It All Together' -->
-
-<!-- _class: lead -->
-## 🔗 Bridge: Bonus Floor → Recap
-### From nine floors back to one idea
-
-- **We just climbed:** electrons → transistors → gates → CPU → bits →
-  machine code → C → higher-level languages → OS → apps → the cloud
-- **Next:** let's walk back down the *whole* tower in one breath, floor by
-  floor, so it clicks as a single connected idea rather than nine separate ones
+<!-- Next: Putting It All Together -->
 
 ---
-<!-- _footer: 'Next: The full ladder, one line each' -->
 
 <!-- _class: lead -->
 # Putting It All Together
 
+Let's walk back through the whole tower in one breath
+
+<!-- Next: The full ladder, one line each
+
+So it clicks as a single connected idea rather than nine separate ones. -->
+
 ---
-<!-- _footer: 'Next: Programmers can choose which floor of this tower…' -->
 
 ## The full ladder, one line each
 
-1. **Electrons** flow through transistors (switches)
-2. Transistors form **logic gates**
-3. Logic gates form a **CPU** that runs **bits & bytes**
+1. **Electrons** flow through **transistors** (switches)
+2. On/off signals become **bits & bytes**
+3. Transistors form **logic gates**, gates form a **CPU**
 4. The CPU executes **machine code**, written via **assembler**
 5. **C** gives structure while staying close to the machine
 6. **Higher-level languages** let us think more like humans
@@ -767,21 +766,25 @@ slower, but great if you keep changing your mind about the plot.*
 8. **Applications** are what we actually see and use
 9. **The cloud** is just more of these towers, somewhere else
 
+<!-- Next: Programmers can choose which floor of this tower to work on — or several. -->
+
 ---
-<!-- _footer: 'Next: Image Credits' -->
 
 <!-- _class: lead -->
 # Programmers can choose which floor of this tower to work on — or several.
 
 ## Questions?
 
+<!-- Next: Image Credits -->
+
 ---
 
-<!-- _footer: "" -->
 ## Image Credits
 
-- Diagrams (tower, cloud, hero title, hero background): original, made for this deck
-- Logic gate symbols, voltage/binary signal diagram, binary background image, ASCII table: provided by the presenter
+- Diagrams (tower, cloud, hero title, hero background, binary levels, OS
+  layers, C uses, memory problems): original, made for this deck
+- Logic gate symbols, voltage signal, binary background, ASCII table, 8-bit
+  adder circuit: provided by the presenter
 - Transistors, silicon wafer, CPU die, punched cards: ArnoldReinhold /
   Sangitiana Fararano / Revaldinho — CC BY / CC BY-SA, Wikimedia Commons
 - Keyboard, smartphone, data center: Jovonni Pharr / Gannu03 / Carl Lender —

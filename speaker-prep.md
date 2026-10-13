@@ -13,8 +13,27 @@ question" bank so being grilled doesn't catch you off guard.
 - [ ] Know your **3 "if I forget everything else" takeaways** (below) cold.
 - [ ] Decide your **cut list** in advance if you're running out of time
       (see plan.md: Cloud bonus first, then C/higher-level languages detail).
+- [ ] Rehearse in **presenter view** (see below) — it shows the next slide
+      and your notes (bridge text, jokes, activity hints).
+- [ ] Check the room has **internet** for the logic-gate video; open the
+      link in a browser tab beforehand. No internet → skip the video and
+      explain the gate symbols on the slide instead.
+- [ ] **Confirm licences** of the presenter-provided images
+      (see `images/CREDITS.md`) before sharing the deck publicly.
 - [ ] Glance through the "tough questions" bank once — you don't need
       perfect answers, you need to not freeze.
+
+## Presenter view
+
+Open `slides.html` in a browser and press **P**. A second window opens with
+the current slide, a preview of the **next slide**, a timer, and the speaker
+notes. Every slide's notes start with "Next: <title>" so you can prepare the
+transition; section-divider notes hold the full bridge explanation, and 😄
+notes hold optional jokes (keep the punchline off-screen). Put the presenter
+window on your laptop screen and the main window on the projector.
+
+To embed notes in the PDF as well: `npx @marp-team/marp-cli slides.md
+--pdf --pdf-notes --allow-local-files`.
 
 ## General public-speaking tips (first-timer focused)
 
@@ -55,14 +74,14 @@ Use these as pacing checkpoints — if you're past the target by more than
 | By minute | You should be finishing... |
 |---|---|
 | 4 | Hook & Roadmap |
-| 11 | Floor 0 — Electrons & Transistors |
-| 17 | Floor 1 — Bits & Bytes |
-| 23 | Floor 2 — Logic Gates → CPU |
-| 30 | Floor 3 — Machine Code & Assembler |
-| 37 | Floor 4 — C |
-| 43 | Floor 5 — Higher-Level Languages |
-| 51 | Floor 6 — Operating Systems |
-| 56 | Floor 7 — User Applications |
+| 11 | Floor 1 — Electrons & Transistors |
+| 17 | Floor 2 — Bits & Bytes |
+| 23 | Floor 3 — Logic Gates → CPU |
+| 30 | Floor 4 — Machine Code & Assembler |
+| 37 | Floor 5 — C |
+| 43 | Floor 6 — Higher-Level Languages |
+| 51 | Floor 7 — Operating Systems |
+| 56 | Floor 8 — User Applications |
 | 62 | Bonus — The Cloud |
 | 65 | Recap + Q&A buffer |
 
@@ -73,8 +92,8 @@ words, don't read slides verbatim) plus the one bridge-idea to land.
 
 | Section | Core point to land | Bridge to next |
 |---|---|---|
-| Electrons & Transistors | Electricity can represent on/off; a transistor is a switch controlled by electricity | Switches combine into logic gates |
-| Bits & Bytes | A bit is one on/off; a byte (8 bits) can represent 256 things — numbers, letters, anything | Gates can be wired to do arithmetic on bits |
+| Electrons & Transistors | Electricity can represent on/off; a transistor is a switch controlled by electricity | Humans agree to call on/off "1" and "0" (glass-of-water aside) |
+| Bits & Bytes | A bit is one on/off; a byte (8 bits) can represent 256 things — numbers, letters, anything | Storing bits is nice — transistors wired into gates can *compute* with them |
 | Logic Gates → CPU | Millions of gates wired together = a CPU; add a clock + memory and you get a general-purpose machine | The CPU needs instructions to do anything useful |
 | Machine Code & Assembler | Machine code is raw binary instructions; assembler just gives them readable names, 1:1 | Assembly is CPU-specific and tedious — we want portability |
 | C | C adds structure (vars/functions/loops) and a compiler makes it portable across CPUs | C is still low-level (manual memory, verbose) |

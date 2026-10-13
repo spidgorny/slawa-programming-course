@@ -1,10 +1,15 @@
 # Image Credits
 
 Custom diagrams (`abstraction-tower.svg`, `cloud-diagram.svg`,
-`hero-title.svg`, `hero-bg.svg`) were created for this deck — no attribution
+`hero-title.svg`, `hero-bg.svg`, `binary-levels.svg`, `os-layers.svg`,
+`c-everywhere.svg`, `memory-problems.svg`) were created for this deck — no attribution
 required, free to reuse/modify.
 
-`logic-gate-symbols.png`, `adder-circuit.png` were provided by the presenter.
+Provided by the presenter: `logic-gate-symbols.png`, `adder-circuit.png`,
+`voltage-signal.png`, `binary-background.png`, `ascii-table.png`.
+
+> ⚠️ TODO (presenter): confirm the source and licence of each of these five
+> images and add attribution here before sharing the deck publicly.
 
 Photos sourced from Wikimedia Commons:
 

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 560" width="480">
+  <style>
+    .t { font-family: Arial, sans-serif; fill: #1a202c; }
+    .w { font-family: Arial, sans-serif; fill: #e2e8f0; }
+    .h { font-size: 22px; font-weight: bold; }
+    .s { font-size: 17px; }
+    .box { stroke: #1a202c; stroke-width: 1.5; }
+  </style>
+  <text class="w h" x="240" y="32" text-anchor="middle">Manual memory in C</text>
+
+  <rect class="box" x="20" y="60" width="440" height="95" rx="12" fill="#68d391"/>
+  <text class="t h" x="40" y="98">Ask → use → give back</text>
+  <text class="t s" x="40" y="128">malloc() … free() — correct</text>
+
+  <rect class="box" x="20" y="175" width="440" height="95" rx="12" fill="#f6e05e"/>
+  <text class="t h" x="40" y="213">Forget to give back</text>
+  <text class="t s" x="40" y="243">memory leak — app slowly eats all RAM</text>
+
+  <rect class="box" x="20" y="290" width="440" height="95" rx="12" fill="#f6ad55"/>
+  <text class="t h" x="40" y="328">Use after giving back</text>
+  <text class="t s" x="40" y="358">reads garbage — random bugs</text>
+
+  <rect class="box" x="20" y="405" width="440" height="95" rx="12" fill="#fc8181"/>
+  <text class="t h" x="40" y="443">Write past the end</text>
+  <text class="t s" x="40" y="473">buffer overflow — crashes, security holes</text>
+
+  <text class="w s" x="240" y="540" text-anchor="middle">The programmer must get this right, every time</text>
+</svg>

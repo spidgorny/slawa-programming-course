@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 560" width="520">
+  <style>
+    .t { font-family: Arial, sans-serif; fill: #1a202c; }
+    .w { font-family: Arial, sans-serif; fill: #e2e8f0; }
+    .h { font-size: 24px; font-weight: bold; }
+    .s { font-size: 17px; }
+    .box { stroke: #1a202c; stroke-width: 1.5; }
+  </style>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#e2e8f0"/>
+    </marker>
+  </defs>
+
+  <rect class="box" x="20" y="10" width="480" height="100" rx="12" fill="#63b3ed"/>
+  <text class="t h" x="260" y="52" text-anchor="middle">Apps (processes)</text>
+  <text class="t s" x="260" y="82" text-anchor="middle">browser · music player · this slideshow</text>
+
+  <line x1="260" y1="115" x2="260" y2="185" stroke="#e2e8f0" stroke-width="3" marker-end="url(#arr)"/>
+  <text class="w s" x="275" y="157">system call</text>
+
+  <rect class="box" x="20" y="195" width="480" height="100" rx="12" fill="#81d4e0"/>
+  <text class="t h" x="260" y="237" text-anchor="middle">Operating system</text>
+  <text class="t s" x="260" y="267" text-anchor="middle">schedules processes · manages files &amp; memory</text>
+
+  <line x1="260" y1="300" x2="260" y2="370" stroke="#e2e8f0" stroke-width="3" marker-end="url(#arr)"/>
+  <text class="w s" x="275" y="342">driver</text>
+
+  <rect class="box" x="20" y="380" width="480" height="100" rx="12" fill="#f2b880"/>
+  <text class="t h" x="260" y="422" text-anchor="middle">Hardware</text>
+  <text class="t s" x="260" y="452" text-anchor="middle">CPU · memory · disk · screen · network</text>
+
+  <text class="w s" x="260" y="530" text-anchor="middle">Apps never touch hardware directly — they ask the OS</text>
+</svg>

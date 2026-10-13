@@ -112,7 +112,7 @@ Total slides estimate: ~40 (incl. bonus section and image credits slide)
 
 ### 11. Putting It Together + Q&A (5 min)
 - Recap the full ladder slide, electrons → apps → (optionally) cloud, one line per layer.
-- One memorable takeaway: "Programming is choosing which floor of this tower to work on."
+- One memorable takeaway: "Programmers can choose which floor of this tower to work on — or several."
 - Open floor for questions.
 
 ## Notes / Considerations
@@ -130,8 +130,8 @@ Total slides estimate: ~40 (incl. bonus section and image credits slide)
 - Slide deck (`slides.md`, exported to `slides.html`/`slides.pdf` via Marp) is
   complete, including original diagrams and CC-licensed photos (see
   `images/CREDITS.md`) for most sections.
-- A dedicated **🔗 Bridge slide** now sits between every section (9 total, one
-  per level transition), each stating: what was just built, the question that
+- Every section divider carries a short **bridge question** on-slide, with the
+  full bridge in the speaker notes (presenter view, key P), stating: what was just built, the question that
   naturally follows, and the answer that motivates the next layer. Add ~30–45s
   per bridge to spoken timing (~5 extra minutes total) — these are quick, one
   breath each, not new content to dwell on.
@@ -143,5 +143,6 @@ Total slides estimate: ~40 (incl. bonus section and image credits slide)
   smartphone, data center, Tux) with attribution in `images/CREDITS.md`
 - ✅ Bonus Cloud Computing section added (Section 10)
 - ✅ Bridge/transition slides added between every section (9 total), explicitly
-  connecting each level to the next
+  connecting each level to the next — later merged into the section dividers
+  (short question on-slide, full bridge text in speaker notes)
 - ⏳ Next possible steps: speaker notes, timing rehearsal, visual theme polish
